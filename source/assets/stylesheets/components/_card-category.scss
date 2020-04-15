@@ -1,0 +1,38 @@
+.card-category {
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 4px;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+// code html pour les cards
+//   <div class="card-category">
+//   <%= image_tag "sb2.jpg", alt: "alttext", class:'d-block w-100' %>
+
+//   </div>
+// </div>
+// <div class="col-12 col-md-3" >
+//   <div class="card-category">
+//   <%= image_tag "ss2.jpg", alt: "alttext", class:'d-block w-100' %>
+
+//   </div>
+// </div>
+// <div class="col-12 col-md-3">
+//   <div class="card-category">
+//   <%= image_tag "ss3.jpg", alt: "alttext", class:'d-block w-100' %>
+
+//   </div>
+// </div>
+// <div class="col-12 col-md-3">
+//   <div class="card-category">
+//   <%= image_tag "women.jpg", alt: "alttext", class:'d-block w-100' %>
+
+//   </div>
+// </div>
