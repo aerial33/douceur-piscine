@@ -1,4 +1,6 @@
 .top-bar-section{
+  display:flex;
+  flex:justify-content-between;
   background-color: $blue-dark;
   color:white;
   p{
@@ -10,6 +12,15 @@
   }
 }
 
-@media (max-width: 750px){
+// @media (max-width: 750px){
+//  .top-bar-section{
+//   display: block;
+//  }
+// }
 
-}
+
+// @media (max-width: 450px){
+//   .top-bar-section{
+//     display: block;
+//   }
+// }

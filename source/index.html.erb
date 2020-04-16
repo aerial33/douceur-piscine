@@ -16,7 +16,7 @@ title: Douceur piscine
 <div class="container py-3">
   <div class="row">
     <div class="col-12 col-sm-4">
-        <h2><%= image_tag "bullet-point.png", alt: "", class:"pb-1" %> QUI SOMMES NOUS ?</h2>
+      <h2><%= image_tag "bullet-point.png", alt: "", class:"pb-1" %> QUI SOMMES NOUS ?</h2>
       <p>
         Votre expert de la <span>piscine coque polyester en Gironde</span>.
         Spécialiste dans l'installation de piscine coque polyester,
@@ -35,8 +35,8 @@ title: Douceur piscine
         <i class="fas fa-check"></i>
         <span class="p-2">Traitement de l'eau</span>
       </div>
-
     </div>
+
     <div class="col-12 col-sm-4">
       <div class="d-inline">
         <%= image_tag "warranty.png", alt: "piscine garantie 10ans" %>
@@ -57,4 +57,37 @@ title: Douceur piscine
         Disponibilité et Conseil d’un professionnel expérimenté.
       </p>
     </div>
+  </div>
+</div>
+
+<div class="paralax">
+  <div class="container py-5">
+    <div class="up-video-wrap pt-5">
+      <% link_to "", class:"icon-play", id:"video-play", data: {toggle: "modal", target: "#myModal"} do  %>
+        <i class="far fa-play-circle"></i>
+      <% end %>
+      <div class="modal fade video-up" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark border-dark py-0">
+                <button type="button" class="close text-white" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body bg-dark p-0">
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" allowfullscreen></iframe>
+              </div>
+                <!-- <iframe width="100%" height="398px" frameborder="0" allowfullscreen=""></iframe> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title-vid text-align-center">
+      <h2><%= image_tag "bullet-point.png", alt: "", class:"pb-1" %> DOUCEUR PISCINE EN VIDEO </h2>
+      <p>
+        Votre expert de la piscine coque polyester en Gironde.
+      </p>
+
+    </div>
+  </div>
 </div>
