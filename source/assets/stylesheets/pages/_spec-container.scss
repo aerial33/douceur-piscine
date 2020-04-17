@@ -1,0 +1,32 @@
+.spec-container{
+  background-color: white;
+  h3{
+    padding: 16px 0;
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+  .ps-column{
+  }
+  .md-wrapper{
+    // color: #ffffff;
+    background: $blue-dark;
+    border-color: $blue-dark;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 200px;
+    // height: 120px;
+    font-size: 72px;
+    #calendar-icon{
+    color: $white;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .spec-container{
+    .md-wrapper{
+      width: 100%;
+    }
+  }
+}
