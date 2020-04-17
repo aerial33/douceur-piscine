@@ -1,4 +1,4 @@
-.spec-container{
+.spec-block{
   background-color: white;
   h3{
     padding: 16px 0;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 750px) {
-  .spec-container{
+  .spec-block{
     .md-wrapper{
       width: 100%;
     }

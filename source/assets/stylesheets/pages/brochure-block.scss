@@ -1,0 +1,22 @@
+.broch-block{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $blue-dark;
+  h2,p,a{
+    color:white;
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 750px){
+  .broch-block{
+    .btn-primary-lg{
+      display: block;
+    }
+    h2{
+      font-size: 1.2em;
+      padding-bottom: 10px;
+    }
+  }
+}
