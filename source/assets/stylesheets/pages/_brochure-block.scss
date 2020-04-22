@@ -6,6 +6,9 @@
     color:white;
     margin: 0;
     font-weight: 400;
+    &:before{
+      content:none;
+    }
   }
 }
 

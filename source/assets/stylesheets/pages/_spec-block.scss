@@ -1,3 +1,13 @@
+h2{
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color:$blue-dark;
+  &:before{
+    content:url('/assets/images/bullet-point.png');
+    margin-right: 5px;
+  }
+}
+
 .spec-block{
   background-color: white;
   h3{
