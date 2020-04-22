@@ -31,3 +31,19 @@ new Glide('.glide', {
     }
   }
 }).mount();
+
+new Glide('.carousel-pool', {
+  type: 'carousel',
+  perView: 3,
+  focusAt: 'center',
+  animationDuration: 1000,
+  gap: 5,
+  breakpoints: {
+    850: {
+      perView: 2
+    },
+    500: {
+      perView: 1
+    }
+  }
+}).mount();

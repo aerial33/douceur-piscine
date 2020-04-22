@@ -112,8 +112,8 @@ title: Douceur piscine
 
 <div class="spec-block">
   <div class="container">
-    <div class="d-flex justify-content-around flex-md-row flex-column p-5">
-      <div class="ps-column text-center">
+    <div class="d-flex justify-content-around flex-md-row flex-column">
+      <div class="ps-column text-center bg-light">
         <div class="md-wrapper">
           <i class="far fa-calendar-check" id="calendar-icon"></i>
         </div>
@@ -125,7 +125,7 @@ title: Douceur piscine
         </div>
           <h3>Conseil financement</h3>
       </div>
-      <div class="ps-column text-center">
+      <div class="ps-column text-center bg-light">
         <div class="md-wrapper">
           <i class="fas fa-hard-hat" id="calendar-icon"></i>
         </div>
@@ -155,8 +155,8 @@ title: Douceur piscine
 </div>
 
 
-<div class="container my-5">
-  <div class="glide testimonials">
+<div class="container testimonials my-5">
+  <div class="glide">
     <h2 class="mb-4">ce que l'on pense de nous</h2>
 
     <div class="glide__track" data-glide-el="track">
@@ -169,7 +169,7 @@ title: Douceur piscine
                </blockquote>
              </div>
               <div class="testimonial-slide-thumb">
-                <%= image_tag "alice.jpg", alt: "avatar", width:"50", height:"50", class:"rounded-circle" %>
+                <%= image_tag "alice.jpg", alt: "avatar", width:"70", height:"70", class:"rounded-circle" %>
               </div>
               <div class="testimonial-slide-name">
                 <h3>John doe</h3>
@@ -233,90 +233,46 @@ title: Douceur piscine
       <button class="glide__bullet" id="bullet-pink" data-glide-dir=">"></button>
     </div>
   </div>
-
 </div>
 
-<!-- <div class="testimonial my-5">
+<div class="contain-pool-carousel py-5">
+
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="carousel slide" data-ride="carousel" id="mycarousel">
-          <ol class="carousel-indicators">
-            <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
-            <li data-slide-to="1" data-target="#mycarousel"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-4">
-                  <a href="#">
-                    <span class="img-text">
-                      <p>
-                        Testimonials can be very powerful for helping to establish trust and encouraging visitors to buy, fill out a form, or take whatever action you are after.
-                      </p>
-                      <h2>Julia Roberts</h2>
-                    </span>
-                  </a>
-                </div>
-                <div class="col-md-4">
-                  <a href="#">
-                    <span class="img-text">
-                      <h2>Georges Clooney</h2>
-                      <p>
-                        Testimonials can be very powerful for helping to establish trust and encouraging visitors to buy, fill out a form, or take whatever action you are after.
-                      </p>
-                    </span>
-                  </a>
-                </div>
-                <div class="col-md-4">
-                  <a href="#">
-                    <span class="img-text">
-                      <h2>Tom Sellek</h2>
-                      <p>
-                        Testimonials can be very powerful for helping to establish trust and encouraging visitors to buy, fill out a form, or take whatever action you are after.
-                      </p>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-4">
-                  <a href="#">
-                    <span class="img-text">
-                      <h2>Bruce Willis</h2>
-                      <p>
-                        Testimonials can be very powerful for helping to establish trust and encouraging visitors to buy, fill out a form, or take whatever action you are after.
-                      </p>
-                    </span>
-                  </a>
-                </div>
-                <div class="col-md-4">
-                  <a href="#">
-                    <span class="img-text">
-                      <h2>Brad Pitt</h2>
-                      <p>
-                        Testimonials can be very powerful for helping to establish trust and encouraging visitors to buy, fill out a form, or take whatever action you are after.
-                      </p>
-                    </span>
-                  </a>
-                </div>
-                <div class="col-md-4">
-                  <a href="#">
-                    <span class="img-text">
-                      <h2>Phillipe Noiret</h2>
-                      <p>
-                        Testimonials can be very powerful for helping to establish trust and encouraging visitors to buy, fill out a form, or take whatever action you are after.
-                      </p>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+    <div class="title-pool-carousel text-center mb-5">
+      <h2>EXPLORE OUR TOP RATED SWIMMING POOLS</h2>
+    </div>
+
+    <div class="carousel-pool">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <%= image_tag "canelle.jpg", alt: "alttext" %>
+          </li>
+          <li class="glide__slide">
+            <%= image_tag "cerise.jpg", alt: "alttext" %>
+          </li>
+          <li class="glide__slide">
+            <%= image_tag "majorelle.jpg", alt: "alttext" %>
+          </li>
+          <li class="glide__slide">
+            <%= image_tag "parme.jpg", alt: "alttext" %>
+          </li>
+          <li class="glide__slide">
+            <%= image_tag "praline.jpg", alt: "alttext" %>
+          </li>
+        </ul>
+      </div>
+      <div id="dir-carousel" data-glide-el="controls">
+        <div id="dir-left" data-glide-dir="<"><i class="fas fa-chevron-left"></i></div>
+        <div id="dir-right" data-glide-dir=">"><i class="fas fa-chevron-right"></i></div>
       </div>
     </div>
+
+    <div class="footer-pool-carousel pt-3 text-center">
+      <div class="btn btn-primary-lg text-center w-40">NOS PISCINES</div>
+    </div>
+
   </div>
-</div> -->
+
+</div>
