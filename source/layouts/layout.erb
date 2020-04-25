@@ -11,9 +11,12 @@
     <%= stylesheet_link_tag "site" %>
   </head>
   <body>
-    <%= partial "partials/top-bar" %>
-    <%= partial "partials/navbar" %>
-    <%= yield %>
+    <div id="wrapper">
+      <%= partial "partials/top-bar" %>
+      <%= partial "partials/navbar" %>
+      <%= yield %>
+    </div>
+    <%= partial "partials/footer" %>
     <%= javascript_include_tag "bundle" %>
   </body>
 </html>

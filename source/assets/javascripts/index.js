@@ -17,33 +17,49 @@ $('#myModal').on('hidden.bs.modal', () => {
 
 // <iframe width="560" height="315" src="https://www.youtube.com/embed/kuwyUa_mxFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-new Glide('.glide', {
-  perView: 3,
-  keyboard: false,
-  bound: true,
-  animationDuration: 1000,
-  breakpoints: {
-    800: {
-      perView: 2
-    },
-    500: {
-      perView: 1
+const sliders = document.querySelectorAll('.glide');
+sliders.forEach((item) => {
+  const slider = new Glide(item, {
+    perView: 3,
+    keyboard: false,
+    bound: true,
+    animationDuration: 1000,
+    breakpoints: {
+      980: {
+        perView: 2,
+        peek: {
+          before: 0,
+          after: 50
+        }
+      },
+      770: {
+        perView: 1,
+        peek: {
+          before: 0,
+          after: 70
+        }
+      }
     }
-  }
-}).mount();
+  });
+  slider.mount();
+});
 
-new Glide('.carousel-pool', {
-  type: 'carousel',
-  perView: 3,
-  focusAt: 'center',
-  animationDuration: 1000,
-  gap: 5,
-  breakpoints: {
-    850: {
-      perView: 2
-    },
-    500: {
-      perView: 1
+const poolSliders = document.querySelectorAll('.carousel-pool');
+poolSliders.forEach((item) => {
+  const poolSlider = new Glide(item, {
+    type: 'carousel',
+    perView: 3,
+    focusAt: 'center',
+    animationDuration: 1000,
+    gap: 5,
+    breakpoints: {
+      850: {
+        perView: 2
+      },
+      770: {
+        perView: 1
+      }
     }
-  }
-}).mount();
+  });
+  poolSlider.mount();
+});

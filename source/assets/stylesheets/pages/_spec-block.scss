@@ -20,13 +20,11 @@ h2{
     padding: 40px;
   }
   .md-wrapper{
-    // color: #ffffff;
     background: $blue-dark;
     border-color: $blue-dark;
     border-radius: 4px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    width: 200px;
-    // height: 120px;
+    width: 100%;
     font-size: 72px;
     #calendar-icon{
     color: $white;
