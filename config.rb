@@ -44,7 +44,7 @@ configure :build do
   set      :relative_links, true
   activate :asset_hash
   activate :minify_css
-  # activate :minify_html
+  activate :minify_html
   activate :minify_javascript
   activate :relative_assets
 end
