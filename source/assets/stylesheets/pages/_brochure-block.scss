@@ -28,9 +28,7 @@
   text-transform: uppercase;
   min-height: 40px;
   line-height: 45px;
-  -webkit-transition: all .6s ease-out;
-  -moz-transition: all .6s ease-out;
-  -o-transition: all .6s ease-out;
+  transition: all .6s ease-out;
   &:hover{
     background-color: $gray-light;
     color:$blue-dark;
