@@ -19,3 +19,9 @@
 - name: majorelle
   url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/majorelle.jpg
   tag: fond progressif
+- name: capucine
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588231228/douceur-piscine/capucine.jpg
+  tag: fond progressif
+- name: marine-f
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588179256/douceur-piscine/marine_client.jpg
+  tag: fond plat

@@ -1,63 +1,15 @@
 ---
-title: Piscine Cannelle | Douceur Piscine
+title: Nos Piscines  | Douceur Piscine
 ---
 
 <div class="container py-3">
 
-  <h1>Piscine Coque Polyester</h1>
-  <div class="row">
-    <div class="col-12 col-lg-8">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <%= image_tag "ss5.jpg", alt: "piscine cannelle", class: "d-block w-100" %>
-          </div>
-          <div class="carousel-item">
-            <%= image_tag "ss7.jpg", alt: "piscine prune", class: "d-block w-100" %>
-          </div>
-          <div class="carousel-item">
-            <%= image_tag "ss10.jpg", alt: "piscine mandarine", class: "d-block w-100" %>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <div class="py-3">
-        <h2>Piscine coque polyester à fond plat</h2>
-        <p>Votre spécialiste de la construction de piscine coque polyester vous accueille à Saint Jean d’Illac près de Bordeaux pour toutes réalisations et informations concernant votre projet de piscine enterrée.</p>
-      </div>
-
+  <div class="cards">
+   <% data.piscines.each do |piscine| %>
+    <div class= "card" style= "background-image: url(<%= piscine.url %>); height:200px" >
+        <p><%= piscine.name %></p>
     </div>
-    <div class="col-12 col-lg-4">
-      <form action="#" class="border p-3 rounded">
-        <h2>Commander votre piscine</h2>
-
-        <div class="form-group">
-          <label for="message">Votre projet de piscine</label>
-          <input class="form-control" type="text" placeholder="message" id="message">
-        </div>
-
-        <div class="form-group">
-          <label for="chekin">date entrée</label>
-          <input class="form-control" type="date" placeholder="dd/mm/yy" id="chekin">
-        </div>
-        <div class="form-group">
-          <label for="chekout">date de sortie</label>
-          <input class="form-control" type="date" placeholder="message" id="chekout">
-        </div>
-
-        <input type="submit" value="commander" class="btn btn-success w-100">
-
-      </form>
-
-    </div>
+   <% end %>
   </div>
 
 
