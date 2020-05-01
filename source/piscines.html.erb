@@ -6,7 +6,7 @@ title: Nos Piscines  | Douceur Piscine
     <h1>Nos modéles de piscines proposées </h1>
     <p>Votre spécialiste de la piscine coque polyester</p>
   </div>
- <div> <%= link_to "obtenir un devis", "contact", class: "btn btn-success"  %> </div>
+ <div> <%= link_to "etude personnalisée", "contact", class: "btn btn-success"  %> </div>
 </div>
 
 <div class="container py-5">
@@ -15,11 +15,24 @@ title: Nos Piscines  | Douceur Piscine
 
   <div class="cards py-5">
    <% data.piscines.each do |piscine| %>
-    <div class= "card" data-toggle="modal" data-target=".bd-example-modal-lg #modal-<%= piscine.id %>" style= "background-image: url(<%= piscine.url %>); height:200px" >
-        <p><%= piscine.name %></p>
+    <div class= "pool-card" data-toggle="modal" data-target="#modal-<%= piscine.name %>" >
+      <%= image_tag piscine.url, alt: piscine.tag, :style => "height: 300px; cursor: pointer" %>
+      <div class="pool-card-footer">
+        <div>
+          <h3><%= piscine.name %></h3>
+        </div>
+          <p><%= piscine.tag %></p>
+      </div>
+        <div id="modal-<%= piscine.name %>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <%= image_tag piscine.url, alt: piscine.tag %>
+            </div>
+          </div>
+        </div>
     </div>
    <% end %>
   </div>
-
-
 </div>
+
+

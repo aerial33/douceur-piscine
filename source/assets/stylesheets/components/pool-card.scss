@@ -1,0 +1,35 @@
+.pool-card{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    // height: 300px;
+    /*object-fit: cover;*/
+  }
+  p{
+    margin: 0;
+    opacity: .7;
+  }
+  h3{
+    margin: 0;
+    text-transform: uppercase;
+    color: $magenta;
+  }
+  a{
+    text-decoration: none;
+    color: #E40482;
+    font-size: 14px;
+    margin: 16px 0;
+  }
+}
+
+.pool-card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+}
+
+
