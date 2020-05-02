@@ -5,6 +5,9 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :directory_indexes
+page "/404.html", directory_index: false
+
 # Load Sass from node_modules
 config[:sass_assets_paths] << File.join(root, 'node_modules')
 
