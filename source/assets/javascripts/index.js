@@ -6,7 +6,7 @@ import './slide';
 
 // Relative dependencies (our code)
 $('#video-play').click(() => {
-  const src = 'https://youtube.com/embed/MBxs2iA-EmI';
+  const src = 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdouceurpiscinepolyester%2Fvideos%2F967413833677302%2F&show_text=0&height=320';
   $('#myModal').modal('show');
   $('#myModal iframe').attr('src', src);
 });
