@@ -10,6 +10,11 @@
     <%= auto_display_meta_tags %>
     <%= favicon_tag 'favicon.png' %>
     <%= stylesheet_link_tag "site" %>
+    <!-- Global site tag script consent cookies -->
+   <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+   <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
+   <script>window.addEventListener("load", function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#cff5ff","text":"#000000","border":"#5e99c2"},"button":{"background":"#5e99c2","text":"#ffffff"}},"transparency":"25","position":"bottom-right","padding":"small","margin":"small","border":"thin","content":{"message":"Ce site Web utilise des cookies pour vous assurer la meilleure expérience sur notre site Web","button":"Accepter","link":""}})});</script>
+   <!-- Global site tag script consent cookies -->
   </head>
   <body>
     <div id="wrapper">
@@ -19,6 +24,7 @@
     </div>
     <%= partial "partials/footer" %>
     <%= javascript_include_tag "bundle" %>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165476756-1"></script>
     <script>
