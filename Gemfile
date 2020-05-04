@@ -6,6 +6,7 @@ gem 'middleman-dotenv'
 gem 'middleman-livereload'
 gem 'middleman-minify-html'
 gem 'middleman-pry'
+gem 'middleman-meta-tags', git: 'https://github.com/gabrielecanepa/middleman-meta-tags'
 
 # Deploy on github pages
 # gem 'middleman-gh-pages'

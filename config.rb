@@ -6,6 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :directory_indexes
+activate :meta_tags
 page "/404.html", directory_index: false
 
 # Load Sass from node_modules

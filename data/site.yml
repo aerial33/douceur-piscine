@@ -1,0 +1,16 @@
+site:         "Douceur"
+description:  "Douceur Piscine vous permet de réaliser votre projet de piscine coque polyester, pour toute installation à Bordeaux et dans toute la Gironde."
+keywords:     "piscine, coque, polyester, Bordeaux, Gironde, installation piscine, projet piscine"
+license:      "douceurpiscine"
+thumbnail: "https://res.cloudinary.com/aquiti/image/upload/c_thumb,w_200,g_face/v1588159159/douceur-piscine/majorelle.jpg"
+geocoding:
+  place:      "st jean d'illac, Gironde"
+  latitude:   "44.8112212"
+  longitude:  "-0.75058"
+author:
+  name:       "Douceur Piscine"
+  email:      "contact@douceurpiscine.com"
+  phone:      "(+33) 05 56 92 62 06"
+  website:    "douceurpiscine.com"
+  # Available social media tags: bitbucket dribbble facebook github gitlab instagram linkedin medium twitter
+
