@@ -1,5 +1,20 @@
+- name: marine-400-10m2
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588602311/douceur-piscine/Marine-400-10m2.jpg
+  tag: fond plat
+- name: marine-10m2
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588179256/douceur-piscine/marine_client.jpg
+  tag: fond plat
+- name: Lavande-volet-immergé
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588602236/douceur-piscine/Lavande-volet-immerg.jpg
+  tag: fond plat
+- name: Lavande
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588602288/douceur-piscine/Lavande.jpg
+  tag: fond plat
 - name: canelle
   url: https://res.cloudinary.com/aquiti/image/upload/v1588178954/douceur-piscine/canelle.jpg
+  tag: fond progressif
+- name: majorelle
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/majorelle.jpg
   tag: fond progressif
 - name: praline
   url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/praline.jpg
@@ -10,18 +25,12 @@
 - name: parme
   url: https://res.cloudinary.com/aquiti/image/upload/v1588159158/douceur-piscine/parme.jpg
   tag: fond progressif
-- name: majorelle
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/majorelle.jpg
-  tag: fond progressif
 - name: capucine
   url: https://res.cloudinary.com/aquiti/image/upload/v1588231228/douceur-piscine/capucine.jpg
-  tag: fond progressif
-- name: marine-f
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179256/douceur-piscine/marine_client.jpg
   tag: fond plat
 - name: mandarine
   url: https://res.cloudinary.com/aquiti/image/upload/v1588196850/douceur-piscine/mandarine.jpg
   tag: fond plat
 - name: marine
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588179171/douceur-piscine/marine-fond-plat.jpg
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/MARINE1.jpg
   tag: fond plat
