@@ -10,17 +10,17 @@ description: Vous trouverez un large choix de piscines coques polyester que nous
  <div> <%= link_to "Etude personnalisée", "contact", class: "btn btn-info"  %> </div>
 </div>
 
-<div class="container py-5">
+<div class="container py-4">
   <h2>Présentation de notre gamme</h2>
   <h3>
     <ul class="filter-picture">
-      <li class="link active" data-filter="all">Toutes les piscines coques polyester</li>
-      <li class="link " data-filter="fond_plat">fonds plats</li>
-      <li class="link" data-filter="fond_progressif">fonds progressifs</li>
+      <li class="btn-filt pr-2 active" data-filter="all">Toutes les piscines coques polyester </li>|
+      <li class="btn-filt px-2" data-filter="fond_plat">fonds plats </li>|
+      <li class="btn-filt pl-2" data-filter="fond_progressif"> fonds progressifs</li>
     </ul>
   </h3>
 
-  <div class="cards py-5">
+  <div class="cards py-3">
    <% data.modeles.each do |owner, piscine| %>
     <div class= "pool-card filter <%= piscine.tag %>" data-toggle="modal" data-target="#modal-<%= piscine.name %>" >
       <%= image_tag piscine.url, alt: piscine.tag, :style => "height: 300px; cursor: pointer" %>

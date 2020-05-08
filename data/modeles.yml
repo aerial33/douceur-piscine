@@ -66,6 +66,24 @@ majorelle:
       prof: 2,00m
   wifi: true
   rating: 3
+lavande:
+  name: lavande-volet
+  url: https://res.cloudinary.com/aquiti/image/upload/v1588602236/douceur-piscine/Lavande-volet-immerg.jpg
+  thumb: marine.jpg
+  type: "Fond plat | volet immergé"
+  tag: fond_plat
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  images:
+    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/Lavande.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1588916778/douceur-piscine/piscine_lavande.jpg"
+  dimension:
+    - serie: lavande immergé
+      long: 4,54m
+      larg: 2,20m
+      prof: 1,46m
+  wifi: true
+  rating: 5
 praline:
   name: Praline
   url: https://res.cloudinary.com/aquiti/image/upload/v1588179391/douceur-piscine/praline.jpg
@@ -85,24 +103,6 @@ praline:
       long: 9,00m
       larg: 4,00m
       prof: 1,50m
-  wifi: true
-  rating: 5
-lavande:
-  name: lavande-volet
-  url: https://res.cloudinary.com/aquiti/image/upload/v1588602236/douceur-piscine/Lavande-volet-immerg.jpg
-  thumb: marine.jpg
-  type: "Fond plat | volet immergé"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/Lavande.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588916778/douceur-piscine/piscine_lavande.jpg"
-  dimension:
-    - serie: lavande immergé
-      long: 4,54m
-      larg: 2,20m
-      prof: 1,46m
   wifi: true
   rating: 5
 cannelle:

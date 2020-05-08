@@ -1,10 +1,10 @@
 ---
-title: votre piscine polyester en gironde  | Douceur Piscine
+title: votre piscine coque polyester en gironde  | Douceur Piscine Bordeaux
 description: Vous trouverez un large choix de piscines coques polyester avec fond plat ou inclinée à Bordeaux et en Gironde.
 ---
   <% piscine = data.modeles[owner] %>
 <div class="container py-5">
-  <h2>"<%= "#{owner}" %>": la piscine coque polyester à <%= piscine.type %>.</h2>
+  <h2><%= "#{owner}" %> - la piscine coque polyester à <%= piscine.type %>.</h2>
   <div class="row pt-2">
     <div class="col-12 col-lg-8">
       <div id="carouselExampleControls" class="carousel slide pb-5" data-ride="carousel">
@@ -37,7 +37,7 @@ description: Vous trouverez un large choix de piscines coques polyester avec fon
               <span class="dimension" data-modele="<%= dim.serie %>">
                  <%= "#{dim.long}"  %><br>
                  x
-                 <br><%= dim.larg %>
+                 <br><%= dim.larg %><br>
                  x
                  <br><%= dim.prof %>
               </span>
