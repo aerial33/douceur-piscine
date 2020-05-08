@@ -39,6 +39,9 @@ page '/*.txt', layout: false
   activate :pry
 end
 
+data.modeles.each do |modele|
+  proxy "piscines/#{modele[0]}/index.html", "/piscines/show.html", locals: { owner: modele[0] }, ignore: true
+end
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 

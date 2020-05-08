@@ -3,6 +3,7 @@ import 'bootstrap';
 import '../stylesheets/site.scss';
 import '@fortawesome/fontawesome-free/js/all';
 import './slide';
+import './filter-gallery';
 
 // Relative dependencies (our code)
 $('#video-play').click(() => {

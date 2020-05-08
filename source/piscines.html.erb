@@ -1,5 +1,5 @@
 ---
-title: Nos Piscines  | Douceur Piscine
+title: Nos Piscines coques polyester en gironde  | Douceur Piscine
 description: Vous trouverez un large choix de piscines coques polyester que nous avons installées à Bordeaux et en Gironde.
 ---
 <div class="header-page d-flex justify-content-between align-items-center flex-md-row flex-column text-center px-5">
@@ -12,22 +12,30 @@ description: Vous trouverez un large choix de piscines coques polyester que nous
 
 <div class="container py-5">
   <h2>Présentation de notre gamme</h2>
-  <h3>Toutes les piscines coques polyester fonds plats et fonds progressifs</h3>
+  <h3>
+    <ul class="filter-picture">
+      <li class="link active" data-filter="all">Toutes les piscines coques polyester</li>
+      <li class="link " data-filter="fond_plat">fonds plats</li>
+      <li class="link" data-filter="fond_progressif">fonds progressifs</li>
+    </ul>
+  </h3>
 
   <div class="cards py-5">
-   <% data.piscines.each do |piscine| %>
-    <div class= "pool-card" data-toggle="modal" data-target="#modal-<%= piscine.name %>" >
+   <% data.modeles.each do |owner, piscine| %>
+    <div class= "pool-card filter <%= piscine.tag %>" data-toggle="modal" data-target="#modal-<%= piscine.name %>" >
       <%= image_tag piscine.url, alt: piscine.tag, :style => "height: 300px; cursor: pointer" %>
       <div class="pool-card-footer">
         <div>
-          <h3><%= piscine.name %></h3>
+          <h3><%= owner %></h3>
+          <p><%= piscine.type %></p>
         </div>
-          <p><%= piscine.tag %></p>
+          <%#= link_to "en savoir plus","contact" %>
+          <%= link_to "en savoir plus", "#{owner}" %>
       </div>
         <div id="modal-<%= piscine.name %>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
-              <%= image_tag piscine.url, alt: piscine.tag %>
+              <%= image_tag piscine.url, alt: piscine.type %>
             </div>
           </div>
         </div>

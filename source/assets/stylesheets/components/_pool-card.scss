@@ -5,12 +5,14 @@
   img{
     width: 100%;
     border-radius: 4px 4px 0 0;
-    // height: 300px;
+    height: 400px;
     /*object-fit: cover;*/
   }
   p{
     margin: 0;
-    opacity: .7;
+    opacity: .9;
+    font-weight: bold;
+    color: $blue-dark;
   }
   h3{
     margin: 0;
@@ -19,16 +21,20 @@
   }
   a{
     text-decoration: none;
-    color: #E40482;
+    color: $magenta;
     font-size: 14px;
-    margin: 16px 0;
+    margin-top: 24px;
+    transition: all 0.3s ease 0s;
+    &:hover{
+      font-weight: bold;
+    }
   }
 }
 
 .pool-card-footer{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   padding: 10px 24px;
 }
 
