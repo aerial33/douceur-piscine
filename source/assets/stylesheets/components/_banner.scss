@@ -5,6 +5,25 @@
   background-position: center center;
   color: white;
   padding: 24px 0 140px 0;
+  .promo {
+    background-color: $magenta;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 12px;
+    margin-bottom: 50px;
+    span{
+      font-size: 32px;
+      font-weight: bold;
+    }
+    #aste{
+      font-size:12px;
+    }
+  }
 }
 
 .title-content {

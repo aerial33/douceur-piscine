@@ -8,8 +8,9 @@ marine:
   city_name: "Paris"
   images:
     - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/MARINE1.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588602311/douceur-piscine/Marine-400-10m2.jpg"
     - "https://res.cloudinary.com/aquiti/image/upload/v1588179201/douceur-piscine/MARINE2.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1588179256/douceur-piscine/marine_client.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1588179150/douceur-piscine/marine_client_1.jpg"
   dimension:
     - serie: MARINE 400
       long: 4,34m
@@ -45,7 +46,7 @@ majorelle:
   name: "Majorelle"
   url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/majorelle.jpg
   thumb: majorelle.jpg
-  type: "Fond incliné"
+  type: "Fond progressif"
   tag: fond_progressif
   description: Small flat in Tokyo
   city_name: "Paris, France"
@@ -109,7 +110,7 @@ cannelle:
   name: canelle
   url: https://res.cloudinary.com/aquiti/image/upload/v1588178954/douceur-piscine/canelle.jpg
   thumb: canelle.jpg
-  type: "Fond incliné"
+  type: "Fond progressif"
   tag: fond_progressif
   description: Nice flat in Piccadilly
   city_name: "London, UK"
@@ -205,7 +206,7 @@ Parme:
   name: "Parme"
   url: https://res.cloudinary.com/aquiti/image/upload/v1588159159/douceur-piscine/parme.jpg
   thumb: parme.jpg
-  type: "Fond incliné"
+  type: "Fond progressif"
   tag: fond_progressif
   description: Small flat in Tokyo
   city_name: "Paris, France"
