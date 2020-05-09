@@ -79,10 +79,18 @@ lavande:
     - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/Lavande.jpg"
     - "https://res.cloudinary.com/aquiti/image/upload/v1588916778/douceur-piscine/piscine_lavande.jpg"
   dimension:
-    - serie: lavande immergé
-      long: 4,54m
-      larg: 2,20m
-      prof: 1,46m
+    - serie: lavande 7
+      long: 7,30m
+      larg: 3,50m
+      prof: 1,45m
+    - serie: lavande 8
+      long: 8,30m
+      larg: 4,00m
+      prof: 1,45m
+    - serie: lavande 9
+      long: 9,30m
+      larg: 4,00m
+      prof: 1,45m
   wifi: true
   rating: 5
 praline:
