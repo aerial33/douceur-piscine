@@ -77,7 +77,8 @@ lavande:
   city_name: "London, UK"
   images:
     - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/Lavande.jpg"
-    - "https://res.cloudinary.com/aquiti/image/upload/v1588916778/douceur-piscine/piscine_lavande.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1589137319/douceur-piscine/piscine_lavande.jpg"
+    - "https://res.cloudinary.com/aquiti/image/upload/v1588916778/douceur-piscine/piscine_lavande_couvert.jpg"
   dimension:
     - serie: lavande 7
       long: 7,30m

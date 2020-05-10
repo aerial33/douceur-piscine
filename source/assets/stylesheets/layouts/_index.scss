@@ -44,6 +44,9 @@ body {
     background: $body-bg;
     margin-bottom: 250px;
   }
+  .hidden{
+    display: none;
+  }
 }
 
 @media (max-width: 770px) {

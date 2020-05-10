@@ -24,8 +24,11 @@ description: pour une étude personalisée de votre projet piscine nous équipe 
   <div class="row">
     <div class="col-12">
 
-      <form action="POST" data-netlify="true" class="needs-validation border rounded p-3" novalidate>
-          <h3>Vos coordonnées</h3>
+      <form method="POST" action="/success" data-netlify="true" netlify-honeypot="bot-field" class="needs-validation border rounded p-3" novalidate>
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
+        <h3>Vos coordonnées</h3>
         <div class="form-row mb-3">
           <div class="col-md-3 mb-3">
             <label for="name">Nom*</label>
