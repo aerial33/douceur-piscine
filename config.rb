@@ -39,6 +39,8 @@ page '/*.txt', layout: false
   activate :pry
 end
 
+page "/error/*", :layout => "error"
+
 data.modeles.each do |modele|
   proxy "piscines/#{modele[0]}/index.html", "/piscines/show.html", locals: { owner: modele[0] }, ignore: true
 end
