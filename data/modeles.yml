@@ -4,7 +4,7 @@ marine:
   thumb: marine.jpg
   type: "Fond plat"
   tag: fond_plat
-  description: "Charming room in Montmartre"
+  description: ""
   city_name: "Paris"
   images:
     - "https://res.cloudinary.com/aquiti/image/upload/v1588179189/douceur-piscine/MARINE1.jpg"
@@ -68,9 +68,9 @@ majorelle:
   wifi: true
   rating: 3
 lavande:
-  name: lavande-volet
+  name: lavande
   url: https://res.cloudinary.com/aquiti/image/upload/v1588602236/douceur-piscine/Lavande-volet-immerg.jpg
-  thumb: marine.jpg
+  thumb: lavande.jpg
   type: "Fond plat | volet immergé"
   tag: fond_plat
   description: Nice flat in Piccadilly
@@ -114,7 +114,7 @@ praline:
       prof: 1,50m
   wifi: true
   rating: 5
-cannelle:
+canelle:
   name: canelle
   url: https://res.cloudinary.com/aquiti/image/upload/v1588178954/douceur-piscine/canelle.jpg
   thumb: canelle.jpg
