@@ -5,7 +5,7 @@ keywords: page, not, found
 ---
 
 <div class="text-center my-5">
-  <h1>Page non trouvée 🤔</h1>
+  <h1 class="pt-5">Page inconnue (404) 🤔</h1>
 
   <h1 class="my-5">4<svg id="icon-compass" height="175px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
 
@@ -17,4 +17,19 @@ keywords: page, not, found
 </svg>4</h1>
   <%= link_to "retour à la page accueil","/", class:"btn btn-primary"  %>
 </div>
+
+<style>
+  .needle {
+    transform-origin: center;
+    animation: spin 3.5 1;
+    -webkit-animation: spin 3.5s 1;
+    animation-iteration-count:infinite;
+    animation-timing-function: cubic-bezier(.5,-0.5,.5,1.5);
+  }
+
+  @keyframes spin {
+    100% {
+      transform:rotate(360deg); }
+  }
+</style>
 
