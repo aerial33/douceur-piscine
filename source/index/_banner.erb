@@ -1,7 +1,18 @@
 <div class="banner mb-3">
   <div class="container">
+    <div class="marquee-rtl">
+      <div class="defile">
+        Madame, Monsieur,
+        Alors qu'une nouvelle version du confinement est rentrée en vigueur depuis vendredi 30 Octobre, Douceur Piscine a mis tout en œuvre pour que vous puissiez profiter de votre piscine l'été prochain en famille.
+        Nous sommes heureux de vous faire profiter de nos offres exceptionnelles à l'occasion de la 3ème édition de nos journées Portes Ouvertes un peu particulières cette année. Nous ne pourrons malheureusement pas vous accueillir en agence.
+      </div>
+    </div>
     <h1>VOTRE EXPERT <span>PISCINES POLYESTER</span></h1>
-    <p>PROFITEZ DE VOTRE ÉTÉ !</p>
+    <p><% link_to  "assets/images/porte-ouverte-douceur-piscine.pdf", class:"link", target:"blank" do %>
+           "Nos journées Portes Ouvertes!"  <i class="fas fa-hand-point-left"></i>
+        <% end %>
+     </p>
+    <!-- <p>PROFITEZ DE VOTRE ÉTÉ !</p> -->
     <div>
       <%= link_to "OBTENIR UN DEVIS", "contact", class: "btn-primary-lg m-2" %>
       <%= link_to "NOS MODELES PISCINES", "piscines", class: "btn-secondary-lg m-2" %>
