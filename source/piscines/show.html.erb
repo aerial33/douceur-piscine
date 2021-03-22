@@ -4,17 +4,20 @@ description: Vous trouverez un large choix de piscines coques polyester avec fon
 ---
   <% piscine = data.modeles[owner] %>
 <div class="container py-5">
-  <h2><%= "#{owner}" %> - la piscine coque polyester à <%= piscine.type %>.</h2>
+  <h2><%= piscine.name %> - la piscine coque polyester à <%= piscine.type %>.</h2>
+  <div>
+    <p class="my-4"> <%= piscine.description %></p>
+  </div>
   <div class="row pt-2">
-    <div class="col-12 col-lg-8">
+    <div class="col-12 ">
       <div id="carouselExampleControls" class="carousel slide pb-5" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item card-carousel active">
-            <img src="<%= piscine.url %>" class="d-block w-100" alt=" <%= "piscine #{piscine.name}" %>">
+            <img src="<%= piscine.url %>" class="d-block" alt=" <%= "piscine #{piscine.name}" %>">
           </div>
           <% piscine.images.each do |image| %>
             <div class="carousel-item card-carousel">
-              <img src="<%= image %>" class="d-block w-100" alt="<%= "piscine #{piscine.name}" %>">
+              <img src="<%= image %>" class="d-block" alt="<%= "piscine #{piscine.name}" %>">
             </div>
           <% end %>
         </div>
@@ -29,23 +32,36 @@ description: Vous trouverez un large choix de piscines coques polyester avec fon
       </div>
 
     </div>
-    <div class="col-12 col-lg-4">
-      <h3>Dimensions disponibles pour la gamme <%= piscine.name %> </h3>
-      <p>Longueur interieur x largeur interieur x profondeur</p>
-      <div class="dimension-list">
-        <% piscine.dimension.each do |dim| %>
-              <span class="dimension" data-modele="<%= dim.serie %>">
-                 <%= "#{dim.long}"  %><br>
-                 x
-                 <br><%= dim.larg %><br>
-                 x
-                 <br><%= dim.prof %>
-              </span>
+    <div class="col-12">
+      <h2>Dimensions disponibles pour la gamme <%= piscine.name %> </h2>
+      <div class="models">
+        <div class="schema">
+          <%= image_tag "#{piscine.thumb}", alt: "piscine coque polyester #{piscine.name}", class: "pt-2" %>
+          <div class="coloris">
+            <h3 class="mt-3"> Coloris disponibles</h3>
+            <ul>
+              <% piscine.colors.each do |color|  %>
+              <li class="text-center"> <%=  image_tag "#{color.pastille}"%> <br> <%= color.colorname %></li>
+              <% end %>
+            </ul>
+          </div>
 
-        <% end %>
+
+        </div>
+        <div class="dimension-list">
+          <% piscine.dimension.each do |dim| %>
+                <span class="dimension" data-modele="<%= dim.serie %>">
+                  <h3><%= "#{dim.serie}" %></h3><br>
+                   Longueur: <%= "#{dim.long}"  %><br>
+                   <br>Largeur: <%= dim.larg %><br>
+                   <br>Profondeur: <%= dim.prof %>
+                </span>
+
+          <% end %>
+        </div>
       </div>
-      <%= image_tag "#{piscine.thumb}", alt: "piscine coque polyester #{piscine.name}", class: "pt-2" %> <br>
-      <%= link_to "Être contacté par un conseiller", "contact", class:"btn btn-primary mt-3" %>
+
+      <%= link_to "Être contacté par un conseiller", "contact", class:"btn btn-primary m-5" %>
 
     </div>
   </div>

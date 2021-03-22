@@ -7,14 +7,14 @@ $navbar-color: $blue-dark;
   background: white;
   padding: 8px 5%;
   font-family: $headers-font;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   .navbar-collapse{
     flex-grow: 0;
   }
   .navbar-brand img{
     padding: 0;
-    width: 200px;
+    width: 102px;
   }
 }
 

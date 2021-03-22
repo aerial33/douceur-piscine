@@ -1,248 +1,547 @@
-marine:
-  name: "Marine"
+manhattan:
+  name: "Manhattan"
   url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591180643/douceur-piscine/piscine_polyester_marine_bx.jpg
-  thumb: marine.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/schema-manhattan-380x-aed_hsdz1o.gif
   type: "Fond plat"
   tag: fond_plat
-  description: ""
-  city_name: "Paris"
+  description: "<span>Douceur Piscine</span> vous présente l’un de ses modèles phare : <span>la piscine Manhattan</span>.
+                Cette piscine coque est de forme rectangulaire et est <span>disponible dans 7 différentes dimensions</span> pour s’adapter à tous les jardins et toutes les envies.<br>
+                Avec sa forme classique en rectangle, impossible de se tromper ! <span>Avec un fond plat et une profondeur fixe de 1,46 mètres</span>, elle convient à toute la famille,
+                que ce soit pour la nage pour les plus grands ou pour le jeu pour les plus jeunes.<br> Classique oui, mais design également. Ses escaliers intégrés, discrets,
+                aux lignes arrondies, facilitent l’entrée dans le bassin et apportent une légère touche de modernité qui vous fera craquer pour ce modèle.<br>De plus,
+                <span>elle se décline dans 6 coloris pour s’adapter à votre jardin</span>. Retrouvez là en blanc, blanc carrare (marbre blanc) bleu, bleu azur, beige et également en gris."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
   images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591180614/douceur-piscine/piscine_polyester_marine.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178046/douceur-piscine/Marine-400_10m2.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178046/douceur-piscine/piscine_coque_marine.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591180614/douceur-piscine/piscine_marine_face.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178046/douceur-piscine/marine_fond_plat.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_marine.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015612/monoblocs-fonds-plats/piscine-manhattan/M7_GRISE_2_rkc9f1.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015612/monoblocs-fonds-plats/piscine-manhattan/M7_GRISE_pe4ous.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/M6_BLEU_wdj3cj.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/manhattan-3_vbfsb8.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/piscine-manhattan-8_fbgits.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/piscine-manhattan-9_ogeyhr.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/piscine-manhattan-7_ni2vc2.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/piscine-manhattan-1_dnlrso.jpg"
   dimension:
-    - serie: MARINE 400
-      long: 4,34m
-      larg: 2,30m
-      prof: 1,46m
-    - serie: MARINE 500
+    - serie: Manhattan 5
       long: 5,00m
       larg: 3,00m
       prof: 1,46m
-    - serie: MARINE 600
+    - serie: Manhattan 6
       long: 6,00m
       larg: 3,00m
       prof: 1,46m
-    - serie: MARINE 700
+    - serie: Manhattan 7
       long: 7,00m
       larg: 3,50m
       prof: 1,46m
-    - serie: MARINE 800
+    - serie: Manhattan 8
       long: 8,00m
       larg: 4,10m
       prof: 1,46m
-    - serie: MARINE 900
+    - serie: Manhattan 9
       long: 9,00m
       larg: 4,10m
       prof: 1,46m
-    - serie: MARINE 1000
+    - serie: Manhattan 10
       long: 10,00m
       larg: 4,10m
       prof: 1,46m
-  wifi: false
   rating: 4
-majorelle:
-  name: "Majorelle"
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591181926/douceur-piscine/piscine_polyester_majorelle.jpg
-  thumb: majorelle.jpg
-  type: "Fond progressif"
+brooklyn:
+  name: Brooklyn
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/brooklynn-b-3_ddjlvk.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015319/monoblocs-fonds-inclines/brooklynn/schema-brooklyn-1-380x-7b9_kiusx8.gif
+  type: "Fond incliné"
   tag: fond_progressif
-  description: Small flat in Tokyo
-  city_name: "Paris, France"
+  description: <span>La piscine Brooklyn</span> est résolument tendance, la Brooklyn s'intégrera avec élégance dans un espace classique ou moderne.
+               Modèle phare de la marque, Brooklyn est disponible en 4 dimensions différentes, allant de 7 mètres à 10 mètres de long pour les grands jardins.
+               <span>C’est un modèle à fond incliné</span>, qui allie convivialité et plaisirs de la nage avec une profondeur allant de 0,90 mètres à 1,82 mètres.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
   images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591179562/douceur-piscine/piscine_coque_majorelle.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-5_vxfyb7.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-3_gowqva.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-broklynn-1_tcsba6.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/brooklynn-b-3_ddjlvk.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-2_udxkjd.jpg"
   dimension:
-    - serie: majorelle 750
-      long: 7,50m
-      larg: 3,60m
-      prof: 1,86m
-    - serie: majorelle 850
-      long: 8,50m
-      larg: 4,10m
-      prof: 2,00m
-    - serie: majorelle 950
-      long: 9,50m
-      larg: 4,10m
-      prof: 2,00m
-  wifi: true
-  rating: 3
-lavande:
-  name: lavande
+    - serie: Brooklyn 7
+      long: 7,00m
+      larg: 3,50m
+      prof: 0,90 - 1,50m
+    - serie: Brooklyn 8
+      long: 8,00m
+      larg: 4,00m
+      prof: 0,90 - 1,62m
+    - serie: Brooklyn 9
+      long: 9,00m
+      larg: 4,00m
+      prof: 0,90 - 1,72m
+    - serie: Brooklyn 1
+      long: 10,00m
+      larg: 4,00m
+      prof: 0,90 - 1,82m
+  rating: 5
+lounge:
+  name: Sherry Lounge
   url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591178045/douceur-piscine/Lavande-volet-immerge.jpg
-  thumb: lavande.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/schema-sherry-lounge-380x-c7b_xkkw1t.png
   type: "Fond plat | volet immergé"
   tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
+  description: La marque Douceur Piscine propose le modèle Sherry Lounge pour tous les amoureux de design épuré. Ce bassin rectangulaire moderne, aux lignes minimalistes, s’intégrera par exemple parfaitement à une terrasse en bois.<br>
+               C’est une grande piscine coque, disponible en 3 tailles de 7,30 mètres à 9,30 mètres. C'est une piscine avec une profondeur constante de 1,45 mètres.<br>
+               Elle est équipée d’escaliers pour faciliter l’entrée dans l’eau ainsi que d’une petite plage à gauche de ceux-ci pour se relaxer en toute tranquillité.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
   images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178045/douceur-piscine/Lavande.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_coque_lavande.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_lavande_couvert.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/sherry-lounge-12_mprdrm.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/sherry-lounge-13_h9ja3q.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/sherry-lounge-4_kuyyzo.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/sherry-lounge-9_r4cl9c.jpg"
   dimension:
-    - serie: lavande 7
+    - serie: Sherry Lounge 7
       long: 7,30m
       larg: 3,50m
       prof: 1,45m
-    - serie: lavande 8
+    - serie: Sherry Lounge 8
       long: 8,30m
       larg: 4,00m
       prof: 1,45m
-    - serie: lavande 9
+    - serie: Sherry Lounge 9
       long: 9,30m
       larg: 4,00m
       prof: 1,45m
-  wifi: true
   rating: 5
-praline:
-  name: Praline
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_coque_praline.jpg
-  thumb: praline.jpg
-  type: "Fond plat"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_coque_praline.jpg"
-  dimension:
-    - serie: praline 800
-      long: 8,00m
-      larg: 4,00m
-      prof: 1,50m
-    - serie: praline 900
-      long: 9,00m
-      larg: 4,00m
-      prof: 1,50m
-  wifi: true
-  rating: 5
-canelle:
-  name: canelle
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591178044/douceur-piscine/piscine_coque_canelle.jpg
-  thumb: canelle.jpg
-  type: "Fond progressif"
+acapulco:
+  name: "Acapulco"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015391/monoblocs-fonds-inclines/acapulco/acapulco-950x-43c_mitujs.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015391/monoblocs-fonds-inclines/acapulco/acapulco_1_-380x-a14_xulicb.jpg
+  type: "Fond incliné"
   tag: fond_progressif
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
+  description: Cette piscine rectangulaire mesure 7,25m sur 3,30m et possède une profondeur variable, allant de 1 mètres à 1,70m. C’est une piscine à fond incliné, idéale pour une utilisation par toute la famille.<br>
+               Polyvalente, elle est aussi bien adaptée à la nage qu’aux activités ludiques, comme les jeux aquatiques. De plus, elle possède un large escalier design, qui permet de faciliter l’entrée pour la baignade et qui, également permet de se relaxer, de se détendre au soleil.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
   images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178046/douceur-piscine/marine_bx.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015391/monoblocs-fonds-inclines/acapulco/acapulco-950x-43c_mitujs.jpg"
   dimension:
-    - serie: canelle 700
-      long: 7,00m
-      larg: 3,50m
-      prof: 1,54m
-    - serie: canelle 800
-      long: 8,00m
-      larg: 4,00m
-      prof: 1,62m
-    - serie: canelle 900
-      long: 9,00m
-      larg: 4,00m
-      prof: 1,72m
-    - serie: canelle 1000
-      long: 10,00m
-      larg: 4,00m
-      prof: 1,82m
-  wifi: true
-  rating: 5
-mandarine:
-  name: Mandarine
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591178045/douceur-piscine/mandarine.jpg
-  thumb: mandarine.jpg
-  type: "Fond plat"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178045/douceur-piscine/mandarine.jpg"
-  dimension:
-    - serie: mandarine 700
-      long: 7,00m
-      larg: 3,10m
-      prof: 1,50m
-    - serie: mandarine 800
-      long: 8,00m
-      larg: 3,50m
-      prof: 1,50m
-    - serie: canelle 900
-      long: 9,00m
-      larg: 3,90m
-      prof: 1,50m
-  wifi: true
-  rating: 5
-cerise:
-  name: Cerise
-  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178044/douceur-piscine/cerise.jpg"
-  thumb: cerise.jpg
-  type: "Fond plat"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178044/douceur-piscine/cerise.jpg"
-  dimension:
-    - serie: cerise 545
-      long: 5,45m
+    - serie: Acapulco
+      long: 7,25m
       larg: 3,30m
-      prof: 1,50m
-    - serie: cerise 645
-      long: 6,45m
-      larg: 3,30m
-      prof: 1,50m
-  wifi: true
-  rating: 5
-capucine:
-  name: Capucine
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591178044/douceur-piscine/capucine.jpg
-  thumb: capucine.jpg
-  type: "Fond plat"
-  tag: fond_plat
-  description: Nice flat in Piccadilly
-  city_name: "London, UK"
-  images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178044/douceur-piscine/capucine.jpg"
-  dimension:
-    - serie: capucine 900
-      long: 9,10m
-      larg: 4,10m
-      prof: 1,50m
-    - serie: capucine 1000
-      long: 10,10m
-      larg: 4,10m
-      prof: 1,50m
-  wifi: true
-  rating: 5
-Parme:
-  name: "Parme"
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_coque_parme.jpg
-  thumb: parme.jpg
-  type: "Fond progressif"
-  tag: fond_progressif
-  description: Small flat in Tokyo
-  city_name: "Paris, France"
-  images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1591178047/douceur-piscine/piscine_coque_parme.jpg"
-  dimension:
-    - serie: parme 700
-      long: 7,00m
-      larg: 3,50m
-      prof: 1,54m
-    - serie: parme 800
-      long: 8,00m
-      larg: 4,00m
-      prof: 1,52m
-    - serie: parme 900
-      long: 9,00m
-      larg: 4,00m
-      prof: 1,62m
-    - serie: parme 1000
-      long: 10,00m
-      larg: 4,00m
-      prof: 1,72m
-    - serie: parme 1100
-      long: 11,00m
-      larg: 4,00m
-      prof: 1,82m
-  wifi: true
+      prof: 1,00 - 1,70m
   rating: 3
+beach:
+  name: Sherry Lounge Beach
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/sherry-lounge-4_kuyyzo.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015533/monoblocs-fonds-plats/piscine-lounge-beach/schema-sherry-lounge-beach-380x-81a_m87dhp.png
+  type: "Fond plat | volet immergé"
+  tag: fond_plat
+  description: <span>Nouveauté 2021!</span> La marque Douceur Piscine propose le modèle <span>Sherry Lounge Beach</span> pour tous les amoureux de design épuré. Ce bassin rectangulaire moderne, aux lignes minimalistes, s’intégrera par exemple parfaitement à une terrasse en bois.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015533/monoblocs-fonds-plats/piscine-lounge-beach/sherry-lounge-xxl_ti2ih5.jpg"
+  dimension:
+    - serie: Sherry Lounge Beach XL
+      long: 10,30m
+      larg: 4,00m
+      prof: 1,45m
+    - serie: Sherry Lounge Beach XXL
+      long: 11,30m
+      larg: 4,00m
+      prof: 1,45m
+  rating: 5
+manhattan4:
+  name: "Manhattan 4"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015597/monoblocs-fonds-plats/manathan-4/M4_fus7qi.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015597/monoblocs-fonds-plats/manathan-4/schema-manathan4-380x-664_xcutbv.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description:
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015597/monoblocs-fonds-plats/manathan-4/MANHATTAN_4_3_jqu4t1.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015597/monoblocs-fonds-plats/manathan-4/m4-335x225-342_tos9m9.jpg"
+  dimension:
+    - serie: Manhattan 4
+      long: 4,35m
+      larg: 2,30m
+      prof: 1,46m
+  rating: 4
+morjito:
+  name: Mojito
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015588/monoblocs-fonds-plats/piscine-mojito/piscine-mojito-8-1_typmet.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015588/monoblocs-fonds-plats/piscine-mojito/schema-mojito-380x-df7_irgpgr.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description: Incontournables de par leur forme et leur design épuré, les Mojito sont des modèles intemporels, s’intégrant parfaitement dans votre jardin grâce à leurs dimensions maîtrisées.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015588/monoblocs-fonds-plats/piscine-mojito/piscine-mojito-8-2_gwrdtk.jpg"
+  dimension:
+    - serie: Mojito 8
+      long: 7,60m
+      larg: 3,50m
+      prof: 1,55m
+    - serie: Mojito 9
+      long: 9,20m
+      larg: 3,70m
+      prof: 1,60m
+  rating: 5
+pearl:
+  name: Blue Pearl
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-4_fb2n1i.jpg"
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/schema-blue-pearl-380x-536_jf6tfd.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description:
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-island-1_ih0rms.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-3_c1dm6l.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-coconut-2_oqneyj.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-1_l6aor1.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-5_ihkcyb.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-8_ijh1kz.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-7_fssmzj.jpg"
+  dimension:
+    - serie: Blue Pearl
+      long: 7,80m
+      larg: 3,20 - 3,85m
+      prof: 1,50m
+    - serie: Blue Island
+      long: 8,65m
+      larg: 4,35m
+      prof: 1,50m
+    - serie: Blue Coconut
+      long: 8,70m
+      larg: 5m
+      prof: 1,50m
+  rating: 5
+recif:
+  name: Récif
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical-1_y6xd7s.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/schema-recif-380x-d8a_uq361u.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description: Découvrez ici le modèle de piscine Récif, l’un de nos modèles phare de piscine coque polyester. Cette grande piscine est disponible en 3 dimensions différentes de 8 à 9 mètres de long et de 5,20 mètre de large et est personnalisable selon vos envies.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/cocktail-recif-bleu-azur-mr-caille-1-sur-46_hlujbf.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif_phxt4z.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical_tw4u9r.jpg"
+  dimension:
+    - serie: Récif
+      long: 8m
+      larg: 4m
+      prof: 1,59m
+    - serie: Récif Virgin
+      long: 9m
+      larg: 5m
+      prof: 1,59m
+    - serie: Récif Tropical
+      long: 9m
+      larg: 5,20m
+      prof: 1,59m
+  rating: 5
+bronx:
+  name: "Bronx"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015356/monoblocs-fonds-inclines/bronx/schema-bronx_1_-380x-e53_gxhwmj.jpg
+  thumb: bronx-schema.png
+  type: "Fond incliné"
+  tag: fond_progressif
+  description: Cocktail Piscine vous présente le modèle de piscine Bronx. Cette piscine à fond incliné se décline en plusieurs dimensions pour s’adapter à tous les jardins.<br>
+              Elle est disponible en longueur de 8,50 mètres sur 3,50 ou 9,50 mètres sur 3,80 mètres. Elle possède deux profondeurs variables de 0,90 mètres à 1,67 mètres et de 1 mètres à 1,77 mètres. Elle est ainsi propice à la nage et aux jeux aquatiques.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015357/monoblocs-fonds-inclines/bronx/bronx_npxo7p.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015356/monoblocs-fonds-inclines/bronx/bronx-8_sh2thf.jpg"
+  dimension:
+    - serie: Bronx 8
+      long: 8,50m
+      larg: 3,50m
+      prof: 0,90 - 1,67m
+    - serie: Bronx 9
+      long: 9,50m
+      larg: 3,80m
+      prof: 1,00 - 1,77m
+    - serie: parme 900
+  rating: 3
+lagoon:
+  name: "Lagoon"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-1_updwis.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/schema-lagoon-380x-664_g23p1r.gif
+  type: "Fond incliné"
+  tag: fond_progressif
+  description: Cette piscine rectangulaire est disponible en différentes dimensions, de 8 à 9 mètres de long et de 4 à 5,20 mètres de large. Il s’agit d’une grande piscine enterrée avec un fond progressif. La profondeur est variable et va de 1,25 à 1,95 mètres.<br>
+               L’originalité de cette piscine ? Elle est modulable. Des plages avec escaliers peuvent être ajoutées afin d’offrir un espace de détente supplémentaire. Pour une piscine au design assuré, découvrez ainsi les versions Lagoon Virgin et Lagoon Tropical.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-2_totscc.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-tropical-2_spraqx.jpg"
+  dimension:
+    - serie: Lagoon
+      long: 8,00m
+      larg: 4,00m
+      prof: 1,25 - 1,95m
+    - serie: Lagoon Virgin
+      long: 9,00m
+      larg: 5,00m
+      prof: 1,25 - 1,95m
+    - serie: Lagoon Tropical
+      long: 9,00m
+      larg: 5,20m
+      prof: 1,25 - 1,95m
+  rating: 3
+twist:
+  name: "Twist"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015407/monoblocs-fonds-inclines/twist/piscine-twist-1_koounc.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015407/monoblocs-fonds-inclines/twist/schema-twist-380x-02a_xu4snh.gif
+  type: "Fond incliné"
+  tag: fond_progressif
+  description:
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015407/monoblocs-fonds-inclines/twist/piscine-twist-2_t44r5s.jpg"
+  dimension:
+    - serie: Twist
+      long: 6,50m
+      larg: 3,40m
+      prof: 1,00 - 1,60m
+  rating: 3
+brooklynC:
+  name: Brooklyn C
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-5_vxfyb7.jpg
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015319/monoblocs-fonds-inclines/brooklynn/schema-brooklyn-1-380x-7b9_kiusx8.gif
+  type: "Fond incliné"
+  tag: fond_progressif
+  description: Résolument tendance, le modèle de piscine Brooklyn C s'intégrera avec élégance dans un espace classique ou moderne. C’est un bassin de forme rectangulaire, en coque polyester, fabriquée prête à poser pour une installation simple, rapide et durable.<br>
+               Ce modèle phare de la marque est la digne héritière de la Brooklyn dont elle partage les même lignes. La différence étant dans les dimensions proposées. Ainsi la Brooklyn C trouvera sa place dans les grands jardins, avec une longueur allant de 7,32 mètres à 10,32 mètres.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/brooklynn-b-3_ddjlvk.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-3_gowqva.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-broklynn-1_tcsba6.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/brooklynn-b-3_ddjlvk.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-2_udxkjd.jpg"
+  dimension:
+    - serie: Brooklyn 7C
+      long: 7,32m
+      larg: 3,50m
+      prof: 0,90 - 1,50m
+    - serie: Brooklyn 8C
+      long: 8,32m
+      larg: 4,00m
+      prof: 0,90 - 1,62m
+    - serie: Brooklyn 9C
+      long: 9,32m
+      larg: 4,00m
+      prof: 0,90 - 1,72m
+    - serie: Brooklyn 10C
+      long: 10,32m
+      larg: 4,00m
+      prof: 0,90 - 1,82m
+  rating: 5
+wizz:
+  name: Wizz
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015565/monoblocs-fonds-plats/wizz/wizz-1_qvck3o.jpg"
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015565/monoblocs-fonds-plats/wizz/wizz-380x-c26_o12srx.png
+  type: "Fond plat"
+  tag: fond_plat
+  description: <span>La piscine polyester Wizz</span> est disponible en deux dimensions, de 5,50 mètres sur 2,30 mètres et de 6,30 sur 3 mètres, c’est une piscine de taille moyenne, à fond plat, de 1,40 mètres environ. 6 coloris sont proposés pour une piscine en accord avec votre jardin. Elle pourra être installée dans des petits jardins, avec une terrasse en bois par exemple pour un rendu résolument tendance et pratique.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015565/monoblocs-fonds-plats/wizz/wizz-2_r6erbp.jpg"
+  dimension:
+    - serie: Wizz 5
+      long: 5,50m
+      larg: 2,30m
+      prof: 1,38m
+    - serie: Wizz 6
+      long: 6,50m
+      larg: 3,00m
+      prof: 1,40m
+  rating: 5
+spicy:
+  name: Spicy
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-spicy-tropical-2_hfj4oh.jpg"
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/schema-spicy-380x-060_ajwl7j.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description: " Douceur Picine vous présente le Modèle Spicy. <span>C'est une piscine coque</span> que vous pouvez configurer selon vos envies.<br>
+               Ce bassin est de forme rectangulaire avec les dimensions initiales suivantes: une longueur de 9,50 mètres, une largeur de 4,70 mètres et un fond plat d’une profondeur constante de 1,50 mètre."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-sweety-spicy-paradis-1_zuhkvw.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-spicy-1_mw1jld.jpg"
+  dimension:
+    - serie: Spicy
+      long: 8,50m
+      larg: 3,70m
+      prof: 1,50m
+  rating: 5
+cuba:
+  name: Cuba Libre
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015629/monoblocs-fonds-plats/cuba-libre/piscine-cuba-libre-1_yyze1p.jpg"
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015629/monoblocs-fonds-plats/cuba-libre/schema-cubra-libre-380x-6cf_oagkf8.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description: "La piscine Cuba Libre est une <span>piscine coque à fond plat</span> de 7,20 mètres de longueur et 3,20 mètres de largeur. Elle possède un fond plat et donc une profondeur constante de 1,45 mètres. Elle est disponible en 4 couleurs de liner différentes : blanc, bleu, gris et beige. Elle s’adapte ainsi à tous les jardins et à la terrasse choisie, en bois ou pierre (carrelage, dalles).<br>
+                Cuba Libre est une piscine de forme rectangulaire, aux bords arrondis, offrant un design moderne, tout en rondeur. Elle possède un large escalier intégré, afin de faciliter l’entrée dans le bassin. Il permet également de se prélasser dans l’eau pour un moment de détente assuré."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015629/monoblocs-fonds-plats/cuba-libre/piscine-cuba-libre-2_v0dxrr.jpg"
+  dimension:
+    - serie: Cuba libre
+      long: 7,20m
+      larg: 3,20m
+      prof: 1,45m
+  rating: 5
+Florida:
+  name: Florida
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015574/monoblocs-fonds-plats/florida/piscine-florida-1_mxawny.jpg"
+  thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015574/monoblocs-fonds-plats/florida/schema-florida-380x-220_i5m5wv.gif
+  type: "Fond plat"
+  tag: fond_plat
+  description: "La piscine Cuba Libre est une <span>piscine coque à fond plat</span> de 7,20 mètres de longueur et 3,20 mètres de largeur. Elle possède un fond plat et donc une profondeur constante de 1,45 mètres. Elle est disponible en 4 couleurs de liner différentes : blanc, bleu, gris et beige. Elle s’adapte ainsi à tous les jardins et à la terrasse choisie, en bois ou pierre (carrelage, dalles).<br>
+                Cuba Libre est une piscine de forme rectangulaire, aux bords arrondis, offrant un design moderne, tout en rondeur. Elle possède un large escalier intégré, afin de faciliter l’entrée dans le bassin. Il permet également de se prélasser dans l’eau pour un moment de détente assuré."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015574/monoblocs-fonds-plats/florida/piscine-florida-1_mxawny.jpg"
+  dimension:
+    - serie: Florida
+      long: 9,00m
+      larg: 4,00m
+      prof: 1,60m
+  rating: 5
