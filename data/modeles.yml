@@ -56,7 +56,7 @@ manhattan:
   rating: 4
 brooklyn:
   name: Brooklyn
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/brooklynn-b-3_ddjlvk.jpg
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616801808/monoblocs-fonds-inclines/brooklynn/BROOKLYN_10_GRISE_2_bimsps.jpg
   thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015319/monoblocs-fonds-inclines/brooklynn/schema-brooklyn-1-380x-7b9_kiusx8.gif
   type: "Fond incliné"
   tag: fond_progressif
@@ -73,6 +73,7 @@ brooklyn:
     - pastille: coloris-gris.jpg
       colorname: gris
   images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616801821/monoblocs-fonds-inclines/brooklynn/BROOKLYN_10_GRISE_wua4rh.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-5_vxfyb7.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-brooklyn-3_gowqva.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015318/monoblocs-fonds-inclines/brooklynn/piscine-broklynn-1_tcsba6.jpg"
@@ -91,7 +92,7 @@ brooklyn:
       long: 9,00m
       larg: 4,00m
       prof: 0,90 - 1,72m
-    - serie: Brooklyn 1
+    - serie: Brooklyn 10
       long: 10,00m
       larg: 4,00m
       prof: 0,90 - 1,82m
@@ -131,6 +132,40 @@ lounge:
     - serie: Sherry Lounge 9
       long: 9,30m
       larg: 4,00m
+      prof: 1,45m
+  rating: 5
+sunshine:
+  name: Sunshine
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616783014/monoblocs-fonds-plats/sunshine/sunshine_fsedrq.png
+  thumb: sunshine-schema.png
+  type: "Fond plat"
+  tag: fond_plat
+  description: <span>Douceur Piscine</span> vous présente une <span>piscine rectangulaire</span>, le modèle Sunshine. Il se décline dans 3 dimensions différentes, de 6,20m à 8,20m de long pour une largeur de 3,20m.<br>
+               Ce modèle de piscine propose des formes arrondies et un large escalier pour faciliter l’entrée dans l’eau. Cet escalier permet également d’offrir un espace de détente et de relaxation.<br>
+               <span>C’est une piscine coque à fond plat</span>, avec une profondeur de 1,45m. Elle est idéale pour une utilisation par toute la famille. Avec une profondeur stable, elle est adaptée aux jeux aquatiques, ainsi qu’à la nage.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616783014/monoblocs-fonds-plats/sunshine/sunshine_fsedrq.png"
+  dimension:
+    - serie: Sunshine 6
+      long: 6,20m
+      larg: 3,30m
+      prof: 1,45m
+    - serie: Sunshine 7
+      long: 7,20m
+      larg: 3,30m
+      prof: 1,45m
+    - serie: Sunshine 8
+      long: 8,20m
+      larg: 3,30m
       prof: 1,45m
   rating: 5
 acapulco:
@@ -256,9 +291,7 @@ pearl:
     - pastille: coloris-gris.jpg
       colorname: gris
   images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-island-1_ih0rms.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-3_c1dm6l.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-coconut-2_oqneyj.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-1_l6aor1.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-5_ihkcyb.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-8_ijh1kz.jpg"
@@ -268,22 +301,15 @@ pearl:
       long: 7,80m
       larg: 3,20 - 3,85m
       prof: 1,50m
-    - serie: Blue Island
-      long: 8,65m
-      larg: 4,35m
-      prof: 1,50m
-    - serie: Blue Coconut
-      long: 8,70m
-      larg: 5m
-      prof: 1,50m
   rating: 5
 recif:
   name: Récif
-  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical-1_y6xd7s.jpg
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/cocktail-recif-bleu-azur-mr-caille-1-sur-46_hlujbf.jpg
   thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/schema-recif-380x-d8a_uq361u.gif
   type: "Fond plat"
   tag: fond_plat
-  description: Découvrez ici le modèle de piscine Récif, l’un de nos modèles phare de piscine coque polyester. Cette grande piscine est disponible en 3 dimensions différentes de 8 à 9 mètres de long et de 5,20 mètre de large et est personnalisable selon vos envies.
+  description: Découvrez ici <span>le modèle de piscine Récif</span>, l’un de nos modèles phare de piscine coque polyester. Cette grande piscine est disponible en 3 dimensions différentes de 8 à 9 mètres de long et de 5,20 mètre de large et est personnalisable selon vos envies.<br>
+               En effet, elle peut être équipée d’escaliers plus ou moins importants pour faciliter l’entrée dans le bassin mais également offrir un espace détente. Il est ainsi possible de choisir un bassin avec des escaliers sur la largeur de la piscine, sur la largeur et dans un des angles, ou sur la largeur et la moitié de la longueur pour un grand bassin à la forme original et esthétique.
   colors:
     - pastille: coloris-blanc.jpg
       colorname: blanc
@@ -296,16 +322,32 @@ recif:
   images:
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/cocktail-recif-bleu-azur-mr-caille-1-sur-46_hlujbf.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif_phxt4z.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical_tw4u9r.jpg"
   dimension:
     - serie: Récif
       long: 8m
       larg: 4m
       prof: 1,59m
-    - serie: Récif Virgin
-      long: 9m
-      larg: 5m
-      prof: 1,59m
+  rating: 5
+recif-tropical:
+  name: Récif Tropical
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical-1_y6xd7s.jpg
+  thumb: recif-tropical.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description: Découvrez ici le modèle de piscine Récif, l’un de nos modèles phare de piscine coque polyester. Cette grande piscine est disponible en 3 dimensions différentes de 8 à 9 mètres de long et de 5,20 mètre de large et est personnalisable selon vos envies.<br>
+               En effet, elle peut être équipée d’escaliers plus ou moins importants pour faciliter l’entrée dans le bassin mais également offrir un espace détente. Il est ainsi possible de choisir un bassin avec des escaliers sur la largeur de la piscine, sur la largeur et dans un des angles, ou sur la largeur et la moitié de la longueur pour un grand bassin à la forme original et esthétique.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical_tw4u9r.jpg"
+  dimension:
     - serie: Récif Tropical
       long: 9m
       larg: 5,20m
@@ -317,7 +359,7 @@ bronx:
   thumb: bronx-schema.png
   type: "Fond incliné"
   tag: fond_progressif
-  description: Cocktail Piscine vous présente le modèle de piscine Bronx. Cette piscine à fond incliné se décline en plusieurs dimensions pour s’adapter à tous les jardins.<br>
+  description: <span>Douceur Piscine</span> vous présente le modèle de <span>piscine Bronx</span>. Cette piscine à <span>fond incliné</span> se décline en plusieurs dimensions pour s’adapter à tous les jardins.<br>
               Elle est disponible en longueur de 8,50 mètres sur 3,50 ou 9,50 mètres sur 3,80 mètres. Elle possède deux profondeurs variables de 0,90 mètres à 1,67 mètres et de 1 mètres à 1,77 mètres. Elle est ainsi propice à la nage et aux jeux aquatiques.
   colors:
     - pastille: coloris-blanc.jpg
@@ -340,7 +382,6 @@ bronx:
       long: 9,50m
       larg: 3,80m
       prof: 1,00 - 1,77m
-    - serie: parme 900
   rating: 3
 lagoon:
   name: "Lagoon"
@@ -361,16 +402,57 @@ lagoon:
       colorname: gris
   images:
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-2_totscc.jpg"
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-tropical-2_spraqx.jpg"
   dimension:
     - serie: Lagoon
       long: 8,00m
       larg: 4,00m
       prof: 1,25 - 1,95m
+  rating: 3
+lagoon-virgin:
+  name: "Lagoon Virgin"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616770158/monoblocs-fonds-inclines/lagoon/lagoon-virgin_cv1lpy.jpg
+  thumb: recif-virgin.png
+  type: "Fond incliné | Composables"
+  tag: fond_progressif composables
+  description: Cette piscine rectangulaire est disponible en différentes dimensions, de 8 à 9 mètres de long et de 4 à 5,20 mètres de large. Il s’agit d’une grande piscine enterrée avec un fond progressif. La profondeur est variable et va de 1,25 à 1,95 mètres.<br>
+               L’originalité de cette piscine ? Elle est modulable. Des plages avec escaliers peuvent être ajoutées afin d’offrir un espace de détente supplémentaire. Pour une piscine au design assuré, découvrez ainsi les versions Lagoon Virgin et Lagoon Tropical.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-2_totscc.jpg"
+  dimension:
     - serie: Lagoon Virgin
       long: 9,00m
       larg: 5,00m
       prof: 1,25 - 1,95m
+  rating: 3
+lagoon-tropical:
+  name: "Lagoon Tropical"
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015375/monoblocs-fonds-inclines/lagoon/piscine-lagoon-tropical-2_spraqx.jpg
+  thumb: recif-tropical.png
+  type: "Fond incliné | Composables"
+  tag: fond_progressif composables
+  description: Cette piscine rectangulaire est disponible en différentes dimensions, de 8 à 9 mètres de long et de 4 à 5,20 mètres de large. Il s’agit d’une grande piscine enterrée avec un fond progressif. La profondeur est variable et va de 1,25 à 1,95 mètres.<br>
+               L’originalité de cette piscine ? Elle est modulable. Des plages avec escaliers peuvent être ajoutées afin d’offrir un espace de détente supplémentaire. Pour une piscine au design assuré, découvrez ainsi les versions Lagoon Virgin et Lagoon Tropical.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/piscine-recif-tropical-1_y6xd7s.jpg"
+  dimension:
     - serie: Lagoon Tropical
       long: 9,00m
       larg: 5,20m
@@ -441,6 +523,39 @@ brooklynC:
       larg: 4,00m
       prof: 0,90 - 1,82m
   rating: 5
+long-island:
+  name: Long Island
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616786631/monoblocs-fonds-plats/sunshine/piscine-long-island_zoyqud.png
+  thumb: long-island.png
+  type: "Fond plat"
+  tag: fond_plat
+  description: <span>Douceur Piscine</span> vous présente une <span>piscine rectangulaire</span>, le modèle <span>Long Island</span>. C’est une piscine de grande taille, avec une longueur de 8,5m à 10,5m et une largeur de 4 mètres. Elle est proposée avec un fond plat, d’une profondeur de 1,45m.<br>
+               Sa forme est originale, design et moderne. En effet, ce modèle est rectangulaire ainsi qu'arrondi sur l'un des côtés. Elle est idéale pour les grands jardins et peut être agrémentée de margelles ou entourée par une terrasse en bois par exemple.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616786631/monoblocs-fonds-plats/sunshine/piscine-long-island_zoyqud.png"
+  dimension:
+    - serie: Long Island 8,5
+      long: 8,50m
+      larg: 4,00m
+      prof: 1,45m
+    - serie: Long Island 9,5
+      long: 9,50m
+      larg: 4,00m
+      prof: 1,45m
+    - serie: Long Island 10,5
+      long: 10,50m
+      larg: 4,00m
+      prof: 1,45m
+  rating: 5
 wizz:
   name: Wizz
   url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015565/monoblocs-fonds-plats/wizz/wizz-1_qvck3o.jpg"
@@ -471,7 +586,7 @@ wizz:
   rating: 5
 spicy:
   name: Spicy
-  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-spicy-tropical-2_hfj4oh.jpg"
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-spicy-1_mw1jld.jpg"
   thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/schema-spicy-380x-060_ajwl7j.gif
   type: "Fond plat"
   tag: fond_plat
@@ -487,13 +602,121 @@ spicy:
     - pastille: coloris-gris.jpg
       colorname: gris
   images:
-    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-sweety-spicy-paradis-1_zuhkvw.jpg"
     - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-spicy-1_mw1jld.jpg"
   dimension:
     - serie: Spicy
       long: 8,50m
       larg: 3,70m
       prof: 1,50m
+  rating: 5
+Virgin:
+  name: Spicy Virgin
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616764634/monoblocs-fonds-plats/spicy/piscine-spicy-paradise-1_nzqrpv.jpg"
+  thumb: spicy-virgin.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description: " Douceur Picine vous présente le Modèle Spicy. <span>C'est une piscine coque</span> que vous pouvez configurer selon vos envies.<br>
+               Ce bassin est de forme rectangulaire avec les dimensions initiales suivantes: une longueur de 9,50 mètres, une largeur de 4,70 mètres et un fond plat d’une profondeur constante de 1,50 mètre."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616764634/monoblocs-fonds-plats/spicy/piscine-spicy-paradise-1_nzqrpv.jpg"
+  dimension:
+    - serie: Spicy Virgin
+      long: 9,50m
+      larg: 4,70m
+      prof: 1,50m
+  rating: 5
+Tropical:
+  name: Spicy Tropical
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616765619/monoblocs-fonds-plats/spicy/spicy-tropical-2_d1zv8f.jpg"
+  thumb: spicy-tropical.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description: " Douceur Picine vous présente le Modèle Spicy. <span>C'est une piscine coque</span> que vous pouvez configurer selon vos envies.<br>
+               Ce bassin est de forme rectangulaire avec les dimensions initiales suivantes: une longueur de 9,50 mètres, une largeur de 4,70 mètres et un fond plat d’une profondeur constante de 1,50 mètre."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-spicy-tropical-2_hfj4oh.jpg"
+  dimension:
+    - serie: Spicy Tropical
+      long: 9,50m
+      larg: 4,90m
+      prof: 1,50m
+  rating: 5
+paradise:
+  name: Spicy Paradise
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015635/monoblocs-fonds-plats/spicy/piscine-sweety-spicy-paradis-1_zuhkvw.jpg"
+  thumb: spicy-paradise.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description: " Douceur Picine vous présente le Modèle Spicy. <span>C'est une piscine coque</span> que vous pouvez configurer selon vos envies.<br>
+               Ce bassin est de forme rectangulaire avec les dimensions initiales suivantes: une longueur de 9,50 mètres, une largeur de 4,70 mètres et un fond plat d’une profondeur constante de 1,50 mètre."
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616764634/monoblocs-fonds-plats/spicy/piscine-spicy-paradise-1_nzqrpv.jpg"
+  dimension:
+    - serie: Spicy Paradise
+      long: 10,50m
+      larg: 6,10m
+      prof: 1,50m
+  rating: 5
+flamingo:
+  name: Flamingo
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616786654/monoblocs-fonds-plats/sunshine/piscine-flamingo_ae8guh.png
+  thumb: flamingo.png
+  type: "Fond incliné"
+  tag: fond_progressif
+  description: <span>Douceur Piscine</span> vous présente cette grande <span>piscine rectangulaire</span>, le modèle Flamingo. Elle s’adapte à vos envies et à votre budget, avec une longueur allant de 7 à 9 mètres et une largeur de 4 mètres.
+                <span>C’est une piscine à fond incliné</span>, c’est-à-dire que la profondeur est variable, de 1,10m à 1,85m.<br>
+                C’est une piscine qui s’adapte aussi bien aux petits qu’aux grands. Elle est adaptée pour une utilisation sportive, pour la nage, et également pour une utilisation ludique, pour les jeux aquatiques en famille.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616786654/monoblocs-fonds-plats/sunshine/piscine-flamingo_ae8guh.png"
+  dimension:
+    - serie: Flamingo 7
+      long: 7,00m
+      larg: 3,50m
+      prof: 1,05 - 1,65m
+    - serie: Flamingo 8
+      long: 8,00m
+      larg: 4,00m
+      prof: 1,05 - 1,75m
+    - serie: Flamingo 9
+      long: 9,00m
+      larg: 4,00m
+      prof: 1,05 - 1,85m
   rating: 5
 cuba:
   name: Cuba Libre
@@ -544,4 +767,78 @@ Florida:
       long: 9,00m
       larg: 4,00m
       prof: 1,60m
+  rating: 5
+Coconut:
+  name: Blue Coconut
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-coconut-2_oqneyj.jpg"
+  thumb: blue-coconut.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description:
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-coconut-2_oqneyj.jpg"
+  dimension:
+    - serie: Blue Coconut
+      long: 8,70m
+      larg: 5m
+      prof: 1,50m
+  rating: 5
+Island:
+  name: Blue Island
+  url: "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-island-1_ih0rms.jpg"
+  thumb: island.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description:
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015692/monoblocs-fonds-plats/blue-pearl/piscine-blue-island-1_ih0rms.jpg"
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015691/monoblocs-fonds-plats/blue-pearl/piscine-blue-pearl-8_ijh1kz.jpg"
+  dimension:
+    - serie: Blue Island
+      long: 8,65m
+      larg: 4,35m
+      prof: 1,50m
+  rating: 5
+recif-virgin:
+  name: Récif Virgin
+  url: https://res.cloudinary.com/dp6synsa6/image/upload/v1616767187/monoblocs-fonds-plats/recif/piscine-recif-virgin_tc82ov.jpg
+  thumb: recif-virgin.png
+  type: "Fond plat | Composables"
+  tag: fond_plat composables
+  description: Découvrez ici <span>le modèle de piscine Récif</span>, l’un de nos modèles phare de piscine coque polyester. Cette grande piscine est disponible en 3 dimensions différentes de 8 à 9 mètres de long et de 5,20 mètre de large et est personnalisable selon vos envies.<br>
+               En effet, elle peut être équipée d’escaliers plus ou moins importants pour faciliter l’entrée dans le bassin mais également offrir un espace détente. Il est ainsi possible de choisir un bassin avec des escaliers sur la largeur de la piscine, sur la largeur et dans un des angles, ou sur la largeur et la moitié de la longueur pour un grand bassin à la forme original et esthétique.
+  colors:
+    - pastille: coloris-blanc.jpg
+      colorname: blanc
+    - pastille: coloris-bleu.jpg
+      colorname: bleu
+    - pastille: coloris-beige.jpg
+      colorname: beige
+    - pastille: coloris-gris.jpg
+      colorname: gris
+  images:
+    - "https://res.cloudinary.com/dp6synsa6/image/upload/v1616015678/monoblocs-fonds-plats/recif/cocktail-recif-bleu-azur-mr-caille-1-sur-46_hlujbf.jpg"
+  dimension:
+    - serie: Récif Virgin
+      long: 9m
+      larg: 5m
+      prof: 1,59m
   rating: 5
