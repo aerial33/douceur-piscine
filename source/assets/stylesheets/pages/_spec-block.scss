@@ -1,6 +1,7 @@
 h2{
   font-size: 1.4em;
   text-transform: uppercase;
+  font-weight: 700;
   color:$blue-dark;
   &:before{
     content:url('/assets/images/bullet-point.png');

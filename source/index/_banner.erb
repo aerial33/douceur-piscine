@@ -1,10 +1,14 @@
-<div class="banner mb-3">
-  <div class="container">
-    <h1>VOTRE EXPERT <span>PISCINES POLYESTER</span></h1>
-    <p class="mt-5">PROFITEZ DE VOTRE ÉTÉ !</p>
-    <div>
-      <%= link_to "OBTENIR UN DEVIS", "contact", class: "btn-primary-lg m-2" %>
-      <%= link_to "NOS MODELES PISCINES", "piscines", class: "btn-secondary-lg m-2" %>
+<div class="banner">
+  <div class="wrapper-container wrapper--narrow">
+    <h1 class="text-center"><span>Un été sous le soleil 🍹 avec</span> Brillance Piscine !</h1>
+    <div class="call-action">
+      <div class="call-action-devis">
+        <%= svg 'Pool' %>
+        <%= link_to "OBTENIR UN DEVIS", "contact", class: "btn-primary-lg m-2" %>
+      </div>
+      <div class="call-action-pool">
+        <%= link_to "NOS MODELES PISCINES", "piscines", class: "btn-secondary-lg m-2" %>
+      </div>
     </div>
   </div>
 </div>

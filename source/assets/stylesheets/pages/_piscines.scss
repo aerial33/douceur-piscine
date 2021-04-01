@@ -1,6 +1,11 @@
 .description {
   p {
     color: #1d1d1D;
+    margin: 8px 0;
+    svg{
+      color: $blue;
+      margin-right: 6px;
+    }
     strong {
       color: $blue-dark;
     }
@@ -32,7 +37,7 @@
   .btn-filt{
     cursor:pointer;
     &.active{
-      color:$magenta;
+      color:$orange;
     }
   }
 

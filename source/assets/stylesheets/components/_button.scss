@@ -1,34 +1,64 @@
-// .btn-primary{
-//   background-color: $blue;
-//   color: white;
-//   font-weight: bold;
-//   border-radius: 4px;
-//   padding: 8px 16px;
-//   text-decoration: none;
-//   transition: background 0.3s ease;
-//   &:hover{
-//     background-color: $blue-light;
-//     text-decoration: none;
-//   }
-// }
-
-
-.btn-primary-lg{
+.btn-primary{
   background-color: $blue;
-  border-color: rgb(53, 177, 202);
+  border-color: $blue;
   border-style: solid;
   border-width: 2px;
   color: white;
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 17px;
-  padding: 8px 35px;
+  padding: 8px 32px;
   letter-spacing: 2px;
   text-decoration: none;
   transition: background 0.3s ease;
   &:hover{
-    background-color: $blue-light;
-    border-color: $blue-light;
+    background-color: $blue-medium;
+    border-color: $blue-medium;
+    text-decoration: none;
+    color:white;
+  }
+}
+
+.btn-secondary {
+  background-color: $yellow;
+  border-color: $yellow;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  padding: 8px 32px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  &:hover{
+    background-color: transparent;
+    border-color: $yellow-hover;
+    text-decoration: none;
+    color:$white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+}
+
+
+.btn-primary-lg{
+  background-color: $blue;
+  border-color: $blue;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  padding: 12px 36px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  &:hover{
+    background-color: transparent;
+    border-color: $blue-medium;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     text-decoration: none;
     color:white;
   }
@@ -36,23 +66,24 @@
 
 
 .btn-secondary-lg {
-  background-color: $magenta;
-  border-color: $magenta;
+  background-color: $yellow;
+  border-color: $yellow;
   border-style: solid;
   border-width: 2px;
   color: white;
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 17px;
-  padding: 8px 35px;
+  padding: 12px 36px;
   letter-spacing: 2px;
   text-decoration: none;
   transition: background 0.3s ease;
   &:hover{
-    background-color: $magenta-light;
-    border-color: #F20088;
+    background-color: transparent;
+    border-color: $yellow-hover;
     text-decoration: none;
-    color:white;
+    color:$white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
   }
 }
 

@@ -1,4 +1,4 @@
-$navbar-hover-color: $magenta;
+$navbar-hover-color: $blue-medium;
 $navbar-color: $blue-dark;
 
 
@@ -8,7 +8,7 @@ $navbar-color: $blue-dark;
   padding: 8px 5%;
   font-family: $headers-font;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   .navbar-collapse{
     flex-grow: 0;
   }
@@ -41,7 +41,3 @@ $navbar-color: $blue-dark;
     }
   }
 }
-
-
-
-

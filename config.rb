@@ -5,6 +5,15 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+helpers do
+  def svg(name)
+    root = Middleman::Application.root
+    file_path = "#{root}/source/assets/images/#{name}.svg"
+    return File.read(file_path) if File.exists?(file_path)
+    '(not found)'
+  end
+end
+
 activate :directory_indexes
 activate :meta_tags
 page "/404.html", directory_index: false
