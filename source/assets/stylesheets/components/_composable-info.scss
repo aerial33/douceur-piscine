@@ -1,0 +1,34 @@
+.block-pool-compo{
+  background-color: white;
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.pool-container{
+  margin-inline: auto;
+  width: calc(min(92%, 70.5rem));
+  padding:5em 0;
+  svg{
+    width: 100%;
+  }
+}
+.pool--narrow{
+  max-width: 70rem;
+}
+
+.pool-composable{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+@media (min-width: 60em){
+  .pool-composable{
+    flex-direction: row;
+    > * {
+      flex-basis: 100%;
+    }
+  }
+}

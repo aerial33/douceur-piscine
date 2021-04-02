@@ -20,7 +20,7 @@
     flex-direction: column-reverse;
     gap: 1.5em;
     margin: 4em auto;
-    padding-top: 5em;
+    // padding-top: 5em;
     .call-action-devis{
       display: flex;
       flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .banner h1{
-  font-size: 4.6em;
+  font-size: 4rem;
   font-weight: 700;
   text-align: right;
   font-family:$title-headears;
@@ -51,6 +51,18 @@
     margin: 0;
     letter-spacing: 3px;
   }
+}
+
+@media (min-width: 60em){
+  .banner {
+    h1{
+    font-size: 5.5rem;
+    }
+    .call-action{
+      margin: 6.5rem auto;
+    }
+  }
+
 }
 
 .banner p {
