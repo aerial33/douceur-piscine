@@ -1,16 +1,17 @@
-site:         "Douceur piscine"
-description:  "Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Bordeaux et en gironde"
-keywords:     "piscine, kit piscine , coque, polyester, Bordeaux, Gironde, installation piscine, projet piscine"
-license:      "douceurpiscine"
-thumbnail: "https://res.cloudinary.com/aquiti/image/upload/c_thumb,w_200,g_face/v1588159159/douceur-piscine/majorelle.jpg"
+name:         "Brillance piscine"
+description:  "Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Bordeaux et en gironde rive doite"
+keywords:     "piscine, kit piscine , coque, polyester, Bordeaux, Gironde rive droite, installation piscine, projet piscine"
+license:      "brillancepiscine"
+thumbnail: "https://res.cloudinary.com/dp6synsa6/image/upload/v1591180643/douceur-piscine/piscine_polyester_marine_bx.jpg"
 geocoding:
-  place:      "st jean d'illac, Gironde"
-  latitude:   "44.8112212"
-  longitude:  "-0.75058"
-author:
-  name:       "Douceur Piscine"
-  email:      "contact@douceurpiscine.com"
-  phone:      "(+33) 05 56 92 62 06"
-  website:    "douceurpiscine.com"
+  place:      "MONTUSSAN, Gironde"
+  latitude:   "44.881"
+  longitude:  "0.426"
+adresse: 
+  rue: "42 Route de Fontenelle"
+  postal: "33450 MONTUSSAN"
+email:      "contact@brillancepiscine.com"
+phone:      "(+33) 05 64 37 59 55"
+website:    "brillancepiscine.com"
   # Available social media tags: bitbucket dribbble facebook github gitlab instagram linkedin medium twitter
 

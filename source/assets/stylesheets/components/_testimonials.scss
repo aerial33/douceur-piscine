@@ -39,12 +39,18 @@
       float: right;
     }
   }
-  .testimonial-slide-thumb img{
-    max-width: 70px;
-    float: left;
-    margin-right: 10%;
-    border: 4px solid #fff;
-    border-radius: 50%;
+  .testimonial-slide-thumb {
+    img{
+      max-width: 70px;
+      float: left;
+      margin-right: 10%;
+      border: 4px solid #fff;
+      border-radius: 50%;
+    }
+    svg{
+      font-size: 2.5em;
+      color:$blue-dark;
+    }
   }
   .testimonial-slide-name {
     margin-bottom: 1em;

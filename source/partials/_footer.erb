@@ -3,7 +3,7 @@
 
 
         <div id="footer-compagny mb-3">
-            <%= image_tag "logo-brillance.svg", alt: "douceur-piscine" %>
+            <%= image_tag "logo-brillance.svg", alt: "brillance-piscine" %>
             <div class="textwidget mt-3">
               <p>
                Nous avons plus de 25 ans d'expérience <br>dans la construction de piscines de coque polyester.
@@ -22,14 +22,14 @@
                   <span class="shortcode_icon left" style="padding-right:7px;">
                     <i class="fas fa-map-marker-alt" style="color:#fff;font-size:14px;"></i>
                   </span>
-                  <strong>Douceur Piscine</strong> <br>
-                  572 Avenue de Boulac <br>
-                  33127 Saint-Jean-d'Illac <br>
+                  <strong><%= data.site.name %></strong> <br>
+                  <%= data.site.adresse.rue %> <br>
+                  <%= data.site.adresse.postal %> <br>
                 </address>
               </p>
               <p>
                 <span class="shortcode_icon left" style="padding-right:5px;">
-                  <i class="far fa-clock" style="color:#fff;font-size:14px;"></i></span> Lun-Sam:10:00-13:00 / 15:00-19:00
+                  <i class="far fa-clock" style="color:#fff;font-size:14px;"></i></span> Mar-Sam:10:00-13:00 / 15:00-19:00
 
               </p>
             </div>
@@ -44,12 +44,12 @@
               <p class="d-inline-flex align-items-center">
                 <span class="shortcode_icon left" style="padding:7px;">
                   <i class="fa fa-phone" style="color:#fff;font-size:14px;"></i>
-                 </span><%= link_to "(+33) 05 56 92 62 06", "tel:0556926206", class: "click-to-call", :style => "color: #fff; text-decoration: underline;" %>
+                 </span><%= link_to data.site.phone , "tel:0564375955",  class: "click-to-call", :style => "color: #fff; text-decoration: underline;" %>
               </p>
               <p>
                 <span class="shortcode_icon left" style="padding:7px;">
                   <i class="fa fa-envelope" style="color:#fff;font-size:12px;"></i>
-                </span> <a href="mailto:contact@couleurpiscine.com">contact@couleurpiscine.com</a>
+                </span> <a href="mailto:contact@couleurpiscine.com">contact@brillancepiscine.com</a>
               </p>
               <div class="footer-links">
                 <a href="#"><i class="fab fa-youtube"></i></a>
@@ -61,6 +61,6 @@
 
   </div>
   <div class="footer-copyright">
-    © <%= Time.now.year %> <strong>Douceur Piscine</strong> | <%= link_to "Mentions légales", "#"  %>  | <%= link_to "Piscines", "piscines"  %>  | <%= link_to "Contact", "contact"  %> | made by Douceur Piscine
+    © <%= Time.now.year %> <strong><%= data.site.name %></strong> | <%= link_to "Mentions légales", "#"  %>  | <%= link_to "Piscines", "piscines"  %>  | <%= link_to "Contact", "contact"  %> | made by <%= data.site.name %>
   </div>
 </div>

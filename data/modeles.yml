@@ -4,7 +4,7 @@ manhattan:
   thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015611/monoblocs-fonds-plats/piscine-manhattan/schema-manhattan-380x-aed_hsdz1o.gif
   type: "Fond plat"
   tag: fond_plat
-  description: "<span>Douceur Piscine</span> vous présente l’un de ses modèles phare : <span>la piscine Manhattan</span>.
+  description: "<span>Brillance piscine</span> vous présente l’un de ses modèles phare : <span>la piscine Manhattan</span>.
                 Cette piscine coque est de forme rectangulaire et est <span>disponible dans 7 différentes dimensions</span> pour s’adapter à tous les jardins et toutes les envies.<br>
                 Avec sa forme classique en rectangle, impossible de se tromper ! <span>Avec un fond plat et une profondeur fixe de 1,46 mètres</span>, elle convient à toute la famille,
                 que ce soit pour la nage pour les plus grands ou pour le jeu pour les plus jeunes.<br> Classique oui, mais design également. Ses escaliers intégrés, discrets,
@@ -103,7 +103,7 @@ lounge:
   thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015483/monoblocs-fonds-plats/piscine-sherry-lounge/schema-sherry-lounge-380x-c7b_xkkw1t.png
   type: "Fond plat | volet immergé"
   tag: fond_plat
-  description: La marque Douceur Piscine propose le modèle Sherry Lounge pour tous les amoureux de design épuré. Ce bassin rectangulaire moderne, aux lignes minimalistes, s’intégrera par exemple parfaitement à une terrasse en bois.<br>
+  description: La marque Brillance piscine propose le modèle Sherry Lounge pour tous les amoureux de design épuré. Ce bassin rectangulaire moderne, aux lignes minimalistes, s’intégrera par exemple parfaitement à une terrasse en bois.<br>
                C’est une grande piscine coque, disponible en 3 tailles de 7,30 mètres à 9,30 mètres. C'est une piscine avec une profondeur constante de 1,45 mètres.<br>
                Elle est équipée d’escaliers pour faciliter l’entrée dans l’eau ainsi que d’une petite plage à gauche de ceux-ci pour se relaxer en toute tranquillité.
   colors:
@@ -140,7 +140,7 @@ sunshine:
   thumb: sunshine-schema.png
   type: "Fond plat"
   tag: fond_plat
-  description: <span>Douceur Piscine</span> vous présente une <span>piscine rectangulaire</span>, le modèle Sunshine. Il se décline dans 3 dimensions différentes, de 6,20m à 8,20m de long pour une largeur de 3,20m.<br>
+  description: <span>Brillance piscine</span> vous présente une <span>piscine rectangulaire</span>, le modèle Sunshine. Il se décline dans 3 dimensions différentes, de 6,20m à 8,20m de long pour une largeur de 3,20m.<br>
                Ce modèle de piscine propose des formes arrondies et un large escalier pour faciliter l’entrée dans l’eau. Cet escalier permet également d’offrir un espace de détente et de relaxation.<br>
                <span>C’est une piscine coque à fond plat</span>, avec une profondeur de 1,45m. Elle est idéale pour une utilisation par toute la famille. Avec une profondeur stable, elle est adaptée aux jeux aquatiques, ainsi qu’à la nage.
   colors:
@@ -199,7 +199,7 @@ beach:
   thumb: https://res.cloudinary.com/dp6synsa6/image/upload/v1616015533/monoblocs-fonds-plats/piscine-lounge-beach/schema-sherry-lounge-beach-380x-81a_m87dhp.png
   type: "Fond plat | volet immergé"
   tag: fond_plat
-  description: <span>Nouveauté 2021!</span> La marque Douceur Piscine propose le modèle <span>Sherry Lounge Beach</span> pour tous les amoureux de design épuré. Ce bassin rectangulaire moderne, aux lignes minimalistes, s’intégrera par exemple parfaitement à une terrasse en bois.
+  description: <span>Nouveauté 2021!</span> La marque Brillance piscine propose le modèle <span>Sherry Lounge Beach</span> pour tous les amoureux de design épuré. Ce bassin rectangulaire moderne, aux lignes minimalistes, s’intégrera par exemple parfaitement à une terrasse en bois.
   colors:
     - pastille: coloris-blanc.jpg
       colorname: blanc
@@ -359,7 +359,7 @@ bronx:
   thumb: bronx-schema.png
   type: "Fond incliné"
   tag: fond_progressif
-  description: <span>Douceur Piscine</span> vous présente le modèle de <span>piscine Bronx</span>. Cette piscine à <span>fond incliné</span> se décline en plusieurs dimensions pour s’adapter à tous les jardins.<br>
+  description: <span>Brillance piscine</span> vous présente le modèle de <span>piscine Bronx</span>. Cette piscine à <span>fond incliné</span> se décline en plusieurs dimensions pour s’adapter à tous les jardins.<br>
               Elle est disponible en longueur de 8,50 mètres sur 3,50 ou 9,50 mètres sur 3,80 mètres. Elle possède deux profondeurs variables de 0,90 mètres à 1,67 mètres et de 1 mètres à 1,77 mètres. Elle est ainsi propice à la nage et aux jeux aquatiques.
   colors:
     - pastille: coloris-blanc.jpg
@@ -529,7 +529,7 @@ long-island:
   thumb: long-island.png
   type: "Fond plat"
   tag: fond_plat
-  description: <span>Douceur Piscine</span> vous présente une <span>piscine rectangulaire</span>, le modèle <span>Long Island</span>. C’est une piscine de grande taille, avec une longueur de 8,5m à 10,5m et une largeur de 4 mètres. Elle est proposée avec un fond plat, d’une profondeur de 1,45m.<br>
+  description: <span>Brillance piscine</span> vous présente une <span>piscine rectangulaire</span>, le modèle <span>Long Island</span>. C’est une piscine de grande taille, avec une longueur de 8,5m à 10,5m et une largeur de 4 mètres. Elle est proposée avec un fond plat, d’une profondeur de 1,45m.<br>
                Sa forme est originale, design et moderne. En effet, ce modèle est rectangulaire ainsi qu'arrondi sur l'un des côtés. Elle est idéale pour les grands jardins et peut être agrémentée de margelles ou entourée par une terrasse en bois par exemple.
   colors:
     - pastille: coloris-blanc.jpg
@@ -690,7 +690,7 @@ flamingo:
   thumb: flamingo.png
   type: "Fond incliné"
   tag: fond_progressif
-  description: <span>Douceur Piscine</span> vous présente cette grande <span>piscine rectangulaire</span>, le modèle Flamingo. Elle s’adapte à vos envies et à votre budget, avec une longueur allant de 7 à 9 mètres et une largeur de 4 mètres.
+  description: <span>Brillance piscine</span> vous présente cette grande <span>piscine rectangulaire</span>, le modèle Flamingo. Elle s’adapte à vos envies et à votre budget, avec une longueur allant de 7 à 9 mètres et une largeur de 4 mètres.
                 <span>C’est une piscine à fond incliné</span>, c’est-à-dire que la profondeur est variable, de 1,10m à 1,85m.<br>
                 C’est une piscine qui s’adapte aussi bien aux petits qu’aux grands. Elle est adaptée pour une utilisation sportive, pour la nage, et également pour une utilisation ludique, pour les jeux aquatiques en famille.
   colors:

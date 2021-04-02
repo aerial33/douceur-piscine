@@ -1,17 +1,19 @@
 .block-pool-compo{
   background-color: white;
   p{
+    font-size: 16px;
     margin: 0;
     padding: 0;
   }
 }
 
 .pool-container{
-  margin-inline: auto;
+  margin: 0 auto;
   width: calc(min(92%, 70.5rem));
   padding:5em 0;
-  svg{
-    width: 100%;
+  svg, img{
+    display: block;
+    max-width: 100%;
   }
 }
 .pool--narrow{
@@ -20,8 +22,10 @@
 
 .pool-composable{
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding-top: 1rem;
+  gap: 1.5em;
 }
 
 @media (min-width: 60em){
