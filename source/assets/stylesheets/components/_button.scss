@@ -1,89 +1,91 @@
-.btn-primary{
-  background-color: $blue;
-  border-color: $blue;
-  border-style: solid;
-  border-width: 2px;
-  color: white;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 17px;
-  padding: 8px 32px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-  &:hover{
-    background-color: $blue-medium;
-    border-color: $blue-medium;
-    text-decoration: none;
-    color:white;
-  }
+.btn-primary {
+	display: block;
+	background-color: $blue;
+	border-color: $blue;
+	border-style: solid;
+	border-width: 2px;
+	color: white;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 17px;
+	padding: 8px 32px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	transition: background 0.3s ease;
+	&:hover {
+		background-color: $blue-medium;
+		border-color: $blue-medium;
+		text-decoration: none;
+		color: white;
+	}
 }
 
 .btn-secondary {
-  background-color: $yellow;
-  border-color: $yellow;
-  border-style: solid;
-  border-width: 2px;
-  color: white;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 17px;
-  padding: 8px 32px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-  &:hover{
-    background-color: transparent;
-    border-color: $yellow-hover;
-    text-decoration: none;
-    color:$white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-  }
+	display: block;
+	background-color: $yellow;
+	border-color: $yellow;
+	border-style: solid;
+	border-width: 2px;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 17px;
+	padding: 8px 32px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: background 0.3s ease;
+	&:hover {
+		background-color: transparent;
+		border-color: $yellow-hover;
+		text-decoration: none;
+		color: $white;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	}
 }
 
-
-.btn-primary-lg{
-  background-color: $blue;
-  border-color: $blue;
-  border-style: solid;
-  border-width: 2px;
-  color: white;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 17px;
-  padding: 12px 36px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-  &:hover{
-    background-color: transparent;
-    border-color: $blue-medium;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-    text-decoration: none;
-    color:white;
-  }
+.btn-primary-lg {
+	display: block;
+	background-color: $blue;
+	border-color: $blue;
+	border-style: solid;
+	border-width: 2px;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 17px;
+	padding: 12px 36px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: background 0.3s ease;
+	&:hover {
+		background-color: transparent;
+		border-color: $blue-medium;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+		text-decoration: none;
+		color: white;
+	}
 }
-
 
 .btn-secondary-lg {
-  background-color: $yellow;
-  border-color: $yellow;
-  border-style: solid;
-  border-width: 2px;
-  color: white;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 17px;
-  padding: 12px 36px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-  &:hover{
-    background-color: transparent;
-    border-color: $yellow-hover;
-    text-decoration: none;
-    color:$white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-  }
+	display: block;
+	background-color: $yellow;
+	border-color: $yellow;
+	border-style: solid;
+	border-width: 2px;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 17px;
+	padding: 12px 36px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: background 0.3s ease;
+	&:hover {
+		background-color: transparent;
+		border-color: $yellow-hover;
+		text-decoration: none;
+		color: $white;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	}
 }
-

@@ -1,38 +1,37 @@
-.block-pool-compo{
-  background-color: white;
-  p{
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
+.block-pool-compo {
+	background-color: white;
+	p {
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+	}
 }
 
-.pool-container{
-  margin: 0 auto;
-  width: calc(min(92%, 70.5rem));
-  padding:5em 0;
-  svg, img{
-    display: block;
-    max-width: 100%;
-  }
+.pool-container {
+	margin: 0 auto;
+	width: calc(min(92%, 70.5rem));
+	padding: 5em 0;
+	svg,
+	img {
+		display: block;
+		max-width: 100%;
+	}
 }
-.pool--narrow{
-  max-width: 70rem;
-}
-
-.pool-composable{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 1rem;
-  gap: 1.5em;
+.pool--narrow {
+	max-width: 70rem;
 }
 
-@media (min-width: 60em){
-  .pool-composable{
-    flex-direction: row;
-    > * {
-      flex-basis: 100%;
-    }
-  }
+.pool-composable {
+	display: grid;
+	grid-template-columns: 5fr 4fr;
+	align-items: center;
+	padding-top: 1rem;
+	gap: 1.5em;
+}
+
+@media (max-width: 60em) {
+	.pool-composable {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
 }
