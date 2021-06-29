@@ -1,17 +1,20 @@
-name:         "Brillance piscine"
-description:  "Venez découvrir la piscine de vos de rêves: pose et installation de votre piscine coque polyester à Bordeaux et en gironde rive doite"
-keywords:     "piscine, kit piscine , coque, polyester, Bordeaux, Gironde rive droite, installation piscine, projet piscine"
-license:      "brillancepiscine"
-thumbnail: "https://res.cloudinary.com/dp6synsa6/image/upload/v1591180643/douceur-piscine/piscine_polyester_marine_bx.jpg"
+name: 'Brillance piscine'
+description:
+  "L'équipe de BRILLANCE PISCINE vous accompagne tout au long de votre projet piscine.
+  Expert en fabrication et installation de piscine en coque polyester à MONTUSSAN et en gironde rive droite.
+  Votre pisciniste vous renseigne selon vos besoins en matière de piscine coque à Bordeaux et en gironde rive doite"
+keywords: 'piscine, kit piscine , coque, polyester, Bordeaux, Gironde rive droite, installation piscine, projet piscine'
+license: 'brillancepiscine'
+thumbnail: 'https://res.cloudinary.com/dp6synsa6/image/upload/v1591180643/douceur-piscine/piscine_polyester_marine_bx.jpg'
 geocoding:
-  place:      "MONTUSSAN, Gironde"
-  latitude:   "44.881"
-  longitude:  "0.426"
-adresse: 
-  rue: "42 Route de Fontenelle"
-  postal: "33450 MONTUSSAN"
-email:      "contact@brillancepiscine.com"
-phone:      "(+33) 05 64 37 59 55"
-website:    "brillancepiscine.com"
+  place: 'MONTUSSAN, Gironde'
+  latitude: '44.881'
+  longitude: '0.426'
+adresse:
+  rue: '42 Route de Fontenelle'
+  postal: '33450 MONTUSSAN'
+email: 'contact@brillancepiscine.com'
+phone: '(+33) 05 64 37 59 55'
+website:
+  'brillancepiscine.com'
   # Available social media tags: bitbucket dribbble facebook github gitlab instagram linkedin medium twitter
-
